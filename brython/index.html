@@ -1,184 +1,62 @@
+<!doctype html>
 <html>
 
 <head>
-    <!-- <script src="brython.js"></script> -->
+
     <script src="https://cdn.jsdelivr.net/npm/brython@3.10.5/brython.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/brython@3.10.5/brython_stdlib.js"></script>
-
-    <link rel="stylesheet" href="codemirror/lib/codemirror.css">
-
-    <style type="text/css">
-        #editor {
-            width: 680px;
-            height: 300px;
-            border: 1px solid;
-        }
-
-        #error {
-            margin: 10px 0 10px 0;
-            width: 680px;
-            height: 20px;
-            color: red;
-            font-weight: bold;
-            border: 1px solid;
-            border-color: black;
-        }
-
-        .editor-panel {
-            width: 100%;
-            height: 345px;
-        }
-        .tests {
-            display: none;
-        }
-    </style>
     <script src="codemirror/lib/codemirror.js"></script>
     <script src="codemirror/mode/python/python.js"></script>
+
+    <link rel="stylesheet" href="codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body onload="brython()">
 
-    <script type="text/python">
-    from browser import bind, window, document, html, highlight, markdown
-        
-    importRow="""
-
-    import sys
-    from browser import document
-    from io import StringIO
-    
-    class MyOutput:
-        def __init__(self):
-           self.console = document["output"]
-        def write(self, text):
-            self.console.text += text
-    sys.stdout = MyOutput()
-    
-    def readInput():
-        inputText = document["input"].value
-        inputArray = []
-        for i in inputText.split():
-            inputArray.append(int(i))
-        return inputArray
-
-    def readInputFirst():
-        inputText = document["input1"].value.strip()
-        inputArray1 = []
-        for i in inputText.split():
-            inputArray1.append(int(i))
-        return inputArray1
-
-    inputArray = readInput()
-    inputArray1 = readInputFirst()
-    #inputArray2 = readInput(2)
-    #inputArray3 = readInput(3)
-
-    outputArray = []
-    """
-
-
-
-
-    # Transform markdown to html and insert in the document
-    def run(ev):
-        document["output"].clear()
-        code = document["editor"].text
-        code = importRow + code
-        code = replaceInput(code)
-        code = code.strip()
-        loc={}
-        try:
-            exec(code, {}, loc)
-            document["error"].clear()
-        except Exception as e:
-            document["output"].clear()
-            document["error"].clear()
-            document["error"] <= "Exception: " + str(e)
-
-    def replaceInput(code):
-        return code.replace("input()", "inputArray.pop(0)")
-
-    def replaceInputFirst(code):
-        return code.replace("input()", "inputArray1.pop(0)")
- 
-    @bind(document["run-code"], "click")
-    def runCode(ev): 
-        print('runtcode')
-        run(ev)      
-       
-    @bind(document["submit-code"], "click")
-    def runTest(ev): 
-        print('runtest')
-        test1(1)
-
-
-        
-    new_stdout = """
-    old_stdout = sys.stdout
-    new_stdout = StringIO()
-    sys.stdout = new_stdout
-    """
-
-    result = """
-    
-    result = new_stdout.getvalue().strip()
-    sys.stdout = MyOutput()
-
-    equal = False
-    print("result len", len(result))
-    print("output len", len(output))
-        
-    if result.__eq__(output): 
-        equal = True 
-
-    print("output1", output)
-    print("result", result)
-    print("is ok ", equal)
-    """
-    
-    def test1(test_id):
-
-        output = document["output1"].text;
-        code = document["editor"].text
-        code = importRow + new_stdout +  code + result
-
-        code = replaceInputFirst(code)
-        code = code.strip()
-        loc={}
-
-        try:
-            print('exec agoun')
-            exec(code, {"output":output.strip()}, loc)
-        except Exception as e:
-            print(str(e))
-        
-</script>
+    <script type="text/python" src="python.py"></script>
 
     <body>
         <button id="run-code">Run</button>
         <button id="submit-code">Submit</button>
-        Do not left empty lines!!!
+        <span id="test-result"></span>
         <div class="editor-panel">
             <div id="editor"></div>
             <div id="error"></div>
         </div>
         <div>
-            <textarea id="input" placeholder="Input...." rows="6" cols="40"></textarea>
-            <textarea id="output" placeholder="Output...." rows="6" cols="40"></textarea>
+            <textarea id="input_0" placeholder="Input...." rows="6" cols="40">
+2
+3
+            </textarea>
+            <textarea id="output_0" placeholder="Output...." rows="6" cols="40"></textarea>
         </div>
-
-
-
         <!-- test -->
         <div>
-            <!-- <div class="tests"></div> -->
-<textarea id="input1" placeholder="Input...." rows="6" cols="40">
+            <!-- <textarea id="input_1" placeholder="Input...." rows="6" cols="40">
 2 
 3</textarea>
-<textarea id="output1" placeholder="Output...." rows="6" cols="40">
+            <textarea id="output_1" placeholder="Output...." rows="6" cols="40">
 5
 6
 </textarea>
+
+            <textarea id="input_2" placeholder="Input...." rows="6" cols="40">
+2 
+3</textarea>
+            <textarea id="output_2" placeholder="Output...." rows="6" cols="40">
+5
+6
+</textarea>
+
+            <textarea id="input_3" placeholder="Input...." rows="6" cols="40">
+2 
+3</textarea>
+            <textarea id="output_3" placeholder="Output...." rows="6" cols="40">
+5
+6
+</textarea> -->
+
         </div>
 
     </body>
@@ -186,7 +64,11 @@
     <script>
         var editor = document.getElementById("editor");
         var myCodeMirror = CodeMirror(editor, {
-            value: "print('hello world')",
+            value: 
+            "a=input()" 
+            + "\nb=input()"
+            + "\nprint(a+b)"
+            + "\nprint(a*b)",
             mode: "python"
         });
     </script>
