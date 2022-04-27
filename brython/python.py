@@ -51,7 +51,9 @@ def readInput(test_id):
     inputText = document["input_" + str(test_id)].value.strip()
     inputArray = []
     for i in inputText.split():
-        inputArray.append(int(i))
+        if i.isnumeric():
+            i = int(i)
+        inputArray.append(i)
     return inputArray
 
 def readTestInput(test_id):
@@ -199,11 +201,11 @@ def show_user_test_result():
 
 test_input_output = """
 
-test_outputs = [['5 6', '4 4', '9 20']]
+
+
+test_outputs = [['5 6', '4 4', '9 20'],  ['5  6', '4 4', '9 20'],  ['5  6', '4 4', '9 20']]
 
 def get_test_inputs():
-    test_inputs = [[[2,3],[2,2], [4,5]], [[6,3],[4,5], [5,5]]]
+    test_inputs = [  [[2,3],[2,2], [4,5]],    [[6,3],[4,5], [5,5]],   [[6,3],[4,5], [5,5]]]
     return test_inputs
-
-
 """

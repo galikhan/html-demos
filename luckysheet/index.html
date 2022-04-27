@@ -1,0 +1,141 @@
+<!doctype html>
+<head>
+
+
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/plugins/css/pluginsCss.css' />
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/plugins/plugins.css' />
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/css/luckysheet.css' />
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/assets/iconfont/iconfont.css' />
+<link rel='stylesheet' href='luckysheet/chartmix.css' />
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<!-- <script src="https://unpkg.com/vuex@3.4.0"></script> -->
+
+<script src="https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/plugins/js/plugin.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/luckysheet.umd.min.js"></script>
+<script src="chartmix.umd.min.js"></script>
+
+<script>
+
+    $(function () {
+        //Configuration item
+        var options = {
+            container: 'luckysheet', //luckysheet is the container id
+            lang:'en' ,
+			plugins: ['chart'],
+
+
+data: [
+		{
+			"name": "sheet 1",
+			"color": "",
+			"index": "0",
+			"chart": [
+			],
+			"status": "1",
+			"order": "0",
+			"column": 8,
+			"row": 8,
+			"celldata":
+			[
+				{"r":0,"c":0, "mc":{"rs": 1, "cs":5}, "v":{"ct":{"fa":"General","t":"g"},"v":"MY WALLET1","m":"mm84", "bg": "#67BDC7"}},
+
+				{"r":1,"c":0,"v":{"ct":{"fa":"General","t":"g"},"v":"Kebab Beef","m":"mm84"}},
+				{"r":1,"c":1,"v":{"ct":{"fa":"General","t":"g"},"v":"2700","m":"mm84"}},
+				{"r":1,"c":2,"v":{"ct":{"fa":"General","t":"g"},"v":"10","m":"mm84"}},
+
+				{"r":2,"c":0,"v":{"ct":{"fa":"General","t":"g"},"v":"Kebab Chicken","m":"mm84"}},
+				{"r":2,"c":1,"v":{"ct":{"fa":"General","t":"g"},"v":"1100","m":"mm84"}},
+				{"r":2,"c":2,"v":{"ct":{"fa":"General","t":"g"},"v":"12","m":"mm84"}},
+
+				{"r":3,"c":0,"v":{"ct":{"fa":"General","t":"g"},"v":"Salad Vegetable","m":"mm84"}},
+				{"r":3,"c":1,"v":{"ct":{"fa":"General","t":"g"},"v":"1200","m":"mm84"}},
+				{"r":3,"c":2,"v":{"ct":{"fa":"General","t":"g"},"v":"20","m":"mm84"}},
+
+				{"r":4,"c":0,"v":{"ct":{"fa":"General","t":"g"},"v":"Beverages Lemonade","m":"mm84"}},
+				{"r":4,"c":1,"v":{"ct":{"fa":"General","t":"g"},"v":"320","m":"mm84"}},
+				{"r":4,"c":2,"v":{"ct":{"fa":"General","t":"g"},"v":"25","m":"mm84"}},
+
+				{"r":5,"c":0,"v":{"ct":{"fa":"General","t":"g"},"v":"Beverages ayran","m":"mm84"}},
+				{"r":5,"c":1,"v":{"ct":{"fa":"General","t":"g"},"v":"1200","m":"mm84"}},
+				{"r":5,"c":2,"v":{"ct":{"fa":"General","t":"g"},"v":"20","m":"mm84"}},
+
+				{"r":6,"c":2,"v":{"ct":{"fa":"General","t":"g"},"v":"Total","m":"mm84"}},
+			],
+			"visibledatarow": [],
+			"visibledatacolumn": [],
+			"rowsplit": [],
+			"ch_width": 4748,
+			"rh_height": 1790,
+			"luckysheet_select_save": [
+				{
+					"row": [
+						0,
+						1
+					],
+					"column": [
+						0,
+						0
+					]
+				}
+			],
+			"luckysheet_selection_range": [],
+			"scrollLeft": 0,
+			"scrollTop": 0,
+			"config": {
+				"merge": {
+					"4_4": {
+			            "rs": 3,
+			            "cs": 2
+			        }	
+				}			
+				,
+				"rowlen": {
+            		"0": 50,
+            		"1": 40,
+        		},
+        		"columnlen": {
+            		"0": 300,
+            		"3": 500,
+        		},
+        		"borderInfo": [
+        		{
+					"rangeType": "range",
+					"borderType": "border-all",
+					"style": "7",
+					"color": "red",
+					"range": [{
+					    "row": [2, 4],
+					    "column": [1, 3]
+					}]
+			    },
+        		{
+					"rangeType": "range",
+					"borderType": "border-outside",
+					"style": "7",
+					"color": "black",
+					"range": [{
+					    "row": [5, 7],
+					    "column": [1, 3]
+					}]
+			    },
+			    
+
+			    ]
+			}
+		}
+	]
+            }
+
+
+        luckysheet.create(options)
+    })
+</script>
+
+</head>
+<body>
+
+
+<div id="luckysheet" style="margin:0px;padding:0px;position:absolute;width:100%;height:100%;left: 0px;top: 0px;"></div>
+
+</body>
+</html>

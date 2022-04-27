@@ -33,42 +33,42 @@
         </div>
         <!-- test -->
         <div>
-            <!-- <textarea id="input_1" placeholder="Input...." rows="6" cols="40">
-2 
-3</textarea>
-            <textarea id="output_1" placeholder="Output...." rows="6" cols="40">
-5
-6
-</textarea>
 
-            <textarea id="input_2" placeholder="Input...." rows="6" cols="40">
-2 
-3</textarea>
-            <textarea id="output_2" placeholder="Output...." rows="6" cols="40">
-5
-6
-</textarea>
-
-            <textarea id="input_3" placeholder="Input...." rows="6" cols="40">
-2 
-3</textarea>
-            <textarea id="output_3" placeholder="Output...." rows="6" cols="40">
-5
-6
-</textarea> -->
 
         </div>
 
     </body>
 
     <script>
+
+        var qs = (function (a) {
+            if (a == "") return {};
+            var b = {};
+            for (var i = 0; i < a.length; ++i) {
+                var p = a[i].split('=', 2);
+                if (p.length == 1)
+                    b[p[0]] = "";
+                else
+                    b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+            }
+            return b;
+        })(window.location.search.substr(1).split('&'));
+
+        var defaultCode = "a=input()"
+                + "\nb=input()"
+                + "\nprint(a+b)"
+                + "\nprint(a*b)";    
+
+        if(qs.question == 1) {
+            defaultCode = "print('hello world')"
+        } else {
+            
+        }
+
         var editor = document.getElementById("editor");
+
         var myCodeMirror = CodeMirror(editor, {
-            value: 
-            "a=input()" 
-            + "\nb=input()"
-            + "\nprint(a+b)"
-            + "\nprint(a*b)",
+            value:defaultCode,
             mode: "python"
         });
     </script>
