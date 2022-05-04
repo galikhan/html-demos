@@ -1,141 +1,148 @@
 <!doctype html>
+
 <head>
 
 
-<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/plugins/css/pluginsCss.css' />
-<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/plugins/plugins.css' />
-<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/css/luckysheet.css' />
-<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/assets/iconfont/iconfont.css' />
-<link rel='stylesheet' href='luckysheet/chartmix.css' />
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
-<!-- <script src="https://unpkg.com/vuex@3.4.0"></script> -->
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/plugins/css/pluginsCss.css' />
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/plugins/plugins.css' />
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/css/luckysheet.css' />
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/assets/iconfont/iconfont.css' />
 
-<script src="https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/plugins/js/plugin.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/luckysheet.umd.min.js"></script>
-<script src="chartmix.umd.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/plugins/js/plugin.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/luckysheet.umd.min.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-<script>
+ -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+	<script>
 
-    $(function () {
-        //Configuration item
-        var options = {
-            container: 'luckysheet', //luckysheet is the container id
-            lang:'en' ,
-			plugins: ['chart'],
-
-
-data: [
-		{
-			"name": "sheet 1",
-			"color": "",
-			"index": "0",
-			"chart": [
-			],
-			"status": "1",
-			"order": "0",
-			"column": 8,
-			"row": 8,
-			"celldata":
-			[
-				{"r":0,"c":0, "mc":{"rs": 1, "cs":5}, "v":{"ct":{"fa":"General","t":"g"},"v":"MY WALLET1","m":"mm84", "bg": "#67BDC7"}},
-
-				{"r":1,"c":0,"v":{"ct":{"fa":"General","t":"g"},"v":"Kebab Beef","m":"mm84"}},
-				{"r":1,"c":1,"v":{"ct":{"fa":"General","t":"g"},"v":"2700","m":"mm84"}},
-				{"r":1,"c":2,"v":{"ct":{"fa":"General","t":"g"},"v":"10","m":"mm84"}},
-
-				{"r":2,"c":0,"v":{"ct":{"fa":"General","t":"g"},"v":"Kebab Chicken","m":"mm84"}},
-				{"r":2,"c":1,"v":{"ct":{"fa":"General","t":"g"},"v":"1100","m":"mm84"}},
-				{"r":2,"c":2,"v":{"ct":{"fa":"General","t":"g"},"v":"12","m":"mm84"}},
-
-				{"r":3,"c":0,"v":{"ct":{"fa":"General","t":"g"},"v":"Salad Vegetable","m":"mm84"}},
-				{"r":3,"c":1,"v":{"ct":{"fa":"General","t":"g"},"v":"1200","m":"mm84"}},
-				{"r":3,"c":2,"v":{"ct":{"fa":"General","t":"g"},"v":"20","m":"mm84"}},
-
-				{"r":4,"c":0,"v":{"ct":{"fa":"General","t":"g"},"v":"Beverages Lemonade","m":"mm84"}},
-				{"r":4,"c":1,"v":{"ct":{"fa":"General","t":"g"},"v":"320","m":"mm84"}},
-				{"r":4,"c":2,"v":{"ct":{"fa":"General","t":"g"},"v":"25","m":"mm84"}},
-
-				{"r":5,"c":0,"v":{"ct":{"fa":"General","t":"g"},"v":"Beverages ayran","m":"mm84"}},
-				{"r":5,"c":1,"v":{"ct":{"fa":"General","t":"g"},"v":"1200","m":"mm84"}},
-				{"r":5,"c":2,"v":{"ct":{"fa":"General","t":"g"},"v":"20","m":"mm84"}},
-
-				{"r":6,"c":2,"v":{"ct":{"fa":"General","t":"g"},"v":"Total","m":"mm84"}},
-			],
-			"visibledatarow": [],
-			"visibledatacolumn": [],
-			"rowsplit": [],
-			"ch_width": 4748,
-			"rh_height": 1790,
-			"luckysheet_select_save": [
-				{
-					"row": [
-						0,
-						1
-					],
-					"column": [
-						0,
-						0
-					]
-				}
-			],
-			"luckysheet_selection_range": [],
-			"scrollLeft": 0,
-			"scrollTop": 0,
-			"config": {
-				"merge": {
-					"4_4": {
-			            "rs": 3,
-			            "cs": 2
-			        }	
-				}			
-				,
-				"rowlen": {
-            		"0": 50,
-            		"1": 40,
-        		},
-        		"columnlen": {
-            		"0": 300,
-            		"3": 500,
-        		},
-        		"borderInfo": [
-        		{
-					"rangeType": "range",
-					"borderType": "border-all",
-					"style": "7",
-					"color": "red",
-					"range": [{
-					    "row": [2, 4],
-					    "column": [1, 3]
-					}]
-			    },
-        		{
-					"rangeType": "range",
-					"borderType": "border-outside",
-					"style": "7",
-					"color": "black",
-					"range": [{
-					    "row": [5, 7],
-					    "column": [1, 3]
-					}]
-			    },
-			    
-
-			    ]
+		$(function () {
+			//Configuration item
+			var options = {
+				container: 'luckysheet', //luckysheet is the container id
+				lang: 'en',
+				showtoolbar: false
 			}
+			luckysheet.create(options);
+
+		});
+
+
+
+	</script>
+
+	<style type="text/css">
+		.luckysheet-grid-container {
+			/* top: 108px !important; */
 		}
-	]
-            }
 
-
-        luckysheet.create(options)
-    })
-</script>
-
+		.chart-button-div {
+			border-bottom: 1px solid #d4d4d4;
+		}
+	</style>
 </head>
+
 <body>
 
+	<div id="luckysheet" style="margin:0px;padding:0px;position:absolute;width:50%;height:100%;left: 0px;top: 0px;">
+	</div>
+	<div style="width:50%; float:right">
+		<canvas id='myChart' style='width:50%'></canvas>
+	</div>
+	<script>
 
-<div id="luckysheet" style="margin:0px;padding:0px;position:absolute;width:100%;height:100%;left: 0px;top: 0px;"></div>
+
+
+		$(document).ready(function () {
+
+			var myChart;
+			var editor = $(".luckysheet-work-area").find()[0];
+			var gridContainer = $(".luckysheet").find('.luckysheet-grid-container').first();
+
+			$('#luckysheet_info_detail_update').before("<div class='chart-button-div'><button id='line-chart'>line chart</button></div>");
+			$("#line-chart").click(function () {
+
+				const json = luckysheet.getRangeJson(false);
+				const dim2 = luckysheet.getRangeArray('twoDimensional');
+				xData = dim2[0];
+				yData = dim2[1];
+
+				xDataClean = [];
+				yDataClean = [];
+				for (var x = 0; x < xData.length; x++) {
+					if (xData[x] !== 'x') {
+						xDataClean.push(xData[x]);
+					}
+				}
+
+				for (var y = 0; y < yData.length; y++) {
+					if (yData[y] !== 'y') {
+						yDataClean.push(yData[y]);
+					}
+				}
+				console.log('xDataClean', xDataClean);
+				console.log('yDataClean', yDataClean);
+
+				const data = {
+					labels: dim2[0],
+					datasets: [
+						{
+							label: 'Dataset 1',
+							data: dim2[1],
+							xAxisID: 'x',
+						}
+					]
+				};
+
+				const config = {
+					type: 'line',
+					data: data,
+					options: {
+						responsive: true,
+						stacked: false,
+						plugins: {
+							title: {
+								display: true,
+								text: 'Line Chart'
+							}
+						},
+						scales: {
+							y: {
+								type: 'linear',
+								display: true,
+								position: 'left',
+							},
+						}
+					},
+				};
+
+				if (myChart) {
+					console.log('data',);
+					myChart.data.labels = dim2[0];
+					myChart.data.datasets = [
+						{
+							label: 'Dataset 1',
+							data: dim2[1],
+							xAxisID: 'x',
+						}
+					];
+					myChart.update();
+
+				} else {
+					const ctx = $('#myChart');
+					myChart = new Chart(ctx, config);
+				}
+			});
+
+			function isLetter(c) {
+				return c.toLowerCase() != c.toUpperCase();
+			}
+		});
+
+
+	</script>
 
 </body>
+
 </html>
