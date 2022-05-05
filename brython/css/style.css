@@ -1,22 +1,33 @@
 #editor {
-    width: 680px;
-    height: 300px;
-    border: 1px solid;
+    width: 685px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 2px;
+    background-color: #f2f7fc;
+    box-shadow: 0 0 0 1px #6999FF;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    line-height: 24px;
 }
 
 #error {
     margin: 10px 0 10px 0;
-    width: 680px;
-    height: 20px;
+    padding: 0 0 0 5px;
+    width: 683px;
+    height: 33px;
     color: red;
     font-weight: bold;
-    border: 1px solid;
-    border-color: black;
+    background-color: #f2f7fc;
+	  border:1px solid #6999FF;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    line-height: 31px;
 }
 
 .editor-panel {
     width: 100%;
-    height: 345px;
+    height: 295px;
 }
 .tests {
     display: none;
@@ -27,4 +38,95 @@
 }
 .test-fail {
     color: red
+}
+
+#input-output {
+  margin: 15px 0 10px 0;
+}
+
+#input_0 {
+  margin: 0 8px 0 0;
+  padding: 0 0 0 5px;
+  background-color: #f2f7fc;
+  border:1px solid #6999FF;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  line-height: 24px;
+}
+
+#output_0 {
+  padding: 0 0 0 5px;
+  background-color: #f2f7fc;
+  border:1px solid #6999FF;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  line-height: 24px;
+}
+
+#run-code {
+  height: 35px !important;
+  width: 200px !important;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  font-size: 18px;
+  background-color: #6999FF;
+  color: #1d3e7d;
+}
+
+#run-code:hover {
+  height: 35px !important;
+  width: 200px !important;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  font-size: 18px;
+  background-color: #1d3e7d;
+  color: #6999FF;
+}
+
+#run-code:active {
+  height: 35px !important;
+  width: 200px !important;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  font-size: 18px;
+  background-color: #6999FF;
+  color: #1d3e7d;
+}
+
+#submit-code {
+  height: 35px !important;
+  width: 200px !important;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  font-size: 18px;
+  border: 1px solid #1d3e7d;
+  background-color: #FFFFFF;
+  color: #1d3e7d;
+
+}
+
+#submit-code:hover {
+  height: 35px !important;
+  width: 200px !important;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  font-size: 18px;
+  background-color: #1d3e7d;
+  color: #6999FF;
+}
+
+#submit-code:active {
+  height: 35px !important;
+  width: 200px !important;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  font-size: 18px;
+  background-color: #6999FF;
+  color: #1d3e7d;
 }
