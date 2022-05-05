@@ -188,7 +188,7 @@ def show_user_test_result():
     result_0 = storage["result_" + question_id + '_0']
     result_1 = storage["result_" + question_id + '_1']
     result_2 = storage["result_" + question_id + '_2']
-
+    print("hello world")
     if result_0 == 'True' and result_1 == 'True' and result_2 == 'True':
         document["test-result"] <= html.SPAN(
             "<span class='test-success'>test passed succesfully</span>")
