@@ -4,9 +4,9 @@ import sys
 import traceback
 from browser.local_storage import storage
 
-# questionId = -1
-# if document.query['question']:
-question_id = document.query['question']
+questionId = -1
+if document.query['question']:
+    question_id = document.query['question']
 
 # Transform markdown to html and insert in the document
 
@@ -14,7 +14,7 @@ question_id = document.query['question']
 def run(ev):
     document["output_0"].clear()
     code = document["editor"].text
-    code = imports + test_input_output  + utils + stdout_to_textarea + code
+    code = imports + utils + stdout_to_textarea + code
     code = replaceInput(code)
     code = code.strip()
     code = os.linesep.join(
@@ -37,15 +37,12 @@ from io import StringIO
 from browser.local_storage import storage
 """
 utils = """
-
-# print('get_test_inputs', get_test_inputs())
 question_id = int(question_id)
 class MyOutput:
     def __init__(self):
         self.console = document["output_0"]
     def write(self, text):
         self.console.text += text
-
 
 def readInput(test_id):
     inputText = document["input_" + str(test_id)].value.strip()
@@ -54,19 +51,8 @@ def readInput(test_id):
         inputArray.append(i)
     return inputArray
 
-def readTestInput(test_id):
-    # print('in readTestInput', test_id)
-    test_inputs = get_test_inputs()
-    return test_inputs[question_id][test_id]
-
 inputArray = readInput(0)
-inputArray0 = readTestInput(0)
-inputArray1 = readTestInput(1)
-inputArray2 = readTestInput(2)
 
-# print('inputArray1', inputArray0)
-# print('inputArray2', inputArray1)
-# print('inputArray3', inputArray2)
 outputArray = []
 """
 stdout_to_variable = """
@@ -198,6 +184,7 @@ def show_user_test_result():
 
 
 test_input_output = """
+<<<<<<< HEAD
 
 test_outputs = [
             ['* ** *** **** *****', '* ** *** ****', '* ** *** **** ***** ******'],
@@ -256,6 +243,9 @@ test_outputs = [
             ['','',''],
             ['','','']
             ]
+=======
+test_outputs = [['5 6', '4 4', '9 20'],  ['5  6', '4 4', '9 20'],  ['5  6', '4 4', '9 20']]
+>>>>>>> snowman begin
 
 def get_test_inputs():
     test_inputs = [
