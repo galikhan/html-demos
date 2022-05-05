@@ -17,18 +17,15 @@
     <script type="text/python" src="python.py"></script>
 
     <body>
-        <button id="run-code">Run</button>
+        <button id="run-code" style="margin-right:5px">Run</button>
         <button id="submit-code">Submit</button>
         <span id="test-result"></span>
         <div class="editor-panel">
             <div id="editor"></div>
             <div id="error"></div>
         </div>
-        <div>
-            <textarea id="input_0" placeholder="Input...." rows="6" cols="40">
-2
-3
-            </textarea>
+        <div id="input-output">
+            <textarea id="input_0" placeholder="Input...." rows="6" cols="39"></textarea>
             <textarea id="output_0" placeholder="Output...." rows="6" cols="40"></textarea>
         </div>
         <!-- test -->
@@ -57,13 +54,230 @@
         var defaultCode = "a=input()"
                 + "\nb=input()"
                 + "\nprint(a+b)"
-                + "\nprint(a*b)";    
-
-        if(qs.question == 1) {
-            defaultCode = "print('hello world')"
-        } else {
-            
+                + "\nprint(a*b)";
+<!--4.1-->
+        if(qs.question == 0) {
+            defaultCode = ""
         }
+
+        else if(qs.question == 1){
+            defaultCode = "i = 10"
+                        +"\nwhile i == 0:"
+                        +"\n  print(i)"
+                        +"\n  i -= 1"
+        }
+
+        else if(qs.question == 2){
+            defaultCode = "i = 1"
+                        +"\nwhile i < 10:"
+                        +"\n  print(i)"
+        }
+
+        else if(qs.question == 3){
+            defaultCode = ""
+        }
+
+        else if(qs.question == 4){
+            defaultCode = ""
+        }
+<!--4.2-->
+        else if(qs.question == 5){
+            defaultCode = ""
+        }
+
+        else if(qs.question == 6){
+            defaultCode = ""
+        }
+
+        else if(qs.question == 7){
+            defaultCode = ""
+        }
+
+        else if(qs.question == 8){
+            defaultCode = ""
+        }
+
+        else if(qs.question == 9){
+            defaultCode = ""
+        }
+
+        else if(qs.question == 10){
+            defaultCode = ""
+        }
+
+        else if(qs.question == 11){
+            defaultCode = ""
+        }
+<!-- 4.3 -->
+        else if(qs.question == 12){
+            defaultCode = ""
+        }
+
+        else if(qs.question == 13){
+            defaultCode = ""
+        }
+
+        else if(qs.question == 14){
+            defaultCode = ""
+        }
+
+        else if(qs.question == 15){
+            defaultCode = ""
+        }
+
+        else if(qs.question == 16){
+            defaultCode = ""
+        }
+
+        else if(qs.question == 17){
+            defaultCode = ""
+        }
+<!-- 4.4 -->
+        else if(qs.question == 18){
+            defaultCode = ""
+        }
+
+        else if(qs.question == 19){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 20){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 21){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 22){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 23){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 24){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 25){
+          defaultCode = ""
+        }
+<!-- 4.5 -->
+        else if(qs.question == 26){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 27){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 28){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 29){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 30){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 31){
+          defaultCode = "#write your code here"
+                       +"\nprint('Odd numbers =')"
+                       +"\nprint('Even numbers =')"
+        }
+
+        else if(qs.question == 32){
+          defaultCode = ""
+        }
+
+<!-- 4.6 -->
+        else if(qs.question == 33){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 34){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 35){
+          defaultCode = ""
+        }
+
+<!-- 4.7 -->
+        else if(qs.question == 36){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 37){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 38){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 39){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 40){
+          defaultCode = "x = int(input()) #current amount of money"
+                       +"\ny = int(input()) #percent"
+                       +"\nz = int(input()) #"
+        }
+
+        else if(qs.question == 41){
+          defaultCode = ""
+        }
+
+<!-- 4.8 -->
+        else if(qs.question == 42){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 43){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 44){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 45){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 46){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 47){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 48){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 49){
+          defaultCode = ""
+        }
+
+        else if(qs.question == 50){
+          defaultCode = "     _"
+                       +"\n    /_\\"
+                       +"\n   ('>')"
+                       +"\n >-- : --<"
+                       +"\n   ( : )"
+                       +"\n_(_______)_"
+        }
+
+        else{defaultCode = ""}
 
         var editor = document.getElementById("editor");
 
