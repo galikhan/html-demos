@@ -287,13 +287,9 @@
 
         else { defaultCode = "" }
 
-        var editor = ace.edit("editor", {
-            initialContent: "print()"
-        });
-
+        var editor = ace.edit("editor");
         editor.session.setMode("ace/mode/python");
         editor.renderer.setShowGutter(false);
-        console.log('default Code', defaultCode);
 
         var textarea = document.getElementById('textarea-editor');
         textarea.value = defaultCode;
@@ -302,21 +298,6 @@
             textarea.value = editor.getSession().getValue();
         });
 
-        // var editor = document.getElementById("editor");
-        // var myCodeMirror = CodeMirror(editor, {
-        //     value: defaultCode,
-        //     mode: "python",
-        //     lineNumbers: false,
-        //     gutter: true
-        // });
-
-
-        // var myCodeMirror = CodeMirror(editor, {
-        //     value:defaultCode,
-        //     mode: "python",
-        //     lineNumbers: true,
-        //     gutter: true
-        // });
 
     </script>
 

@@ -14,19 +14,36 @@ def run(ev):
     document["output_0"].clear()
     code = document["textarea-editor"].value    
     code = imports + utils + stdout_to_textarea + code
-    # code = imports + utils + code
     code = replaceInput(code)
     code = prepare_for_snowman(code)
     code = code.strip()
-    # print(code)
-    #code = os.linesep.join(
-    #     [s for s in code.splitlines() if s and len(s) > 1])
     loc = {}
     try:
         exec(code, {"test_id": 0, "question_id": question_id}, loc)
         document["error"].clear()
     except Exception as e:
         document["output_0"].clear()
+        document["error"].clear()
+        document["error"] <= "Exception: " + str(e)
+        # exception_handler(e)
+
+def test(test_id):
+
+    code = document["editor"].text
+    result_code = get_result_code()
+    result_code = result_code.format(question_id, test_id)
+
+    code = imports + stdout_to_variable + \
+        test_input_output + utils + utils_for_test + code + result_code
+    code = replaceInputById(code, test_id)
+    code = code.strip()
+    code = os.linesep.join(
+        [s for s in code.splitlines() if s and len(s) > 1])
+    loc = {}
+
+    try:
+        exec(code, {"test_id": test_id, "question_id": question_id}, loc)
+    except Exception as e:
         document["error"].clear()
         document["error"] <= "Exception: " + str(e)
         # exception_handler(e)
@@ -57,6 +74,18 @@ inputArray = readInput(0)
 
 outputArray = []
 """
+
+utils_for_test = """
+def readTestInput(test_id):
+    test_inputs = get_test_inputs()
+    return test_inputs[question_id][test_id]
+
+inputArray = readInput(0)
+inputArray0 = readTestInput(0)
+inputArray1 = readTestInput(1)
+inputArray2 = readTestInput(2)
+"""
+
 stdout_to_variable = """
 old_stdout = sys.stdout
 new_stdout = StringIO()
@@ -88,26 +117,6 @@ storage["result_{}_{}"] = str(equal)
 """
 
 
-def test(test_id):
-
-    code = document["editor"].text
-    result_code = get_result_code()
-    result_code = result_code.format(question_id, test_id)
-
-    code = imports + stdout_to_variable + \
-        test_input_output + utils + code + result_code
-    code = replaceInputById(code, test_id)
-    code = code.strip()
-    code = os.linesep.join(
-        [s for s in code.splitlines() if s and len(s) > 1])
-    loc = {}
-
-    try:
-        exec(code, {"test_id": test_id, "question_id": question_id}, loc)
-    except Exception as e:
-        document["error"].clear()
-        document["error"] <= "Exception: " + str(e)
-        # exception_handler(e)
 
 
 def exception_handler(e):
