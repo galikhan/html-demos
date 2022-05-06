@@ -1,6 +1,6 @@
 #editor {
     width: 685px;
-    height: 250px;
+    height: 350px;
     margin-top: 10px;
     margin-left: 2px;
     background-color: #f2f7fc;
@@ -27,7 +27,7 @@
 
 .editor-panel {
     width: 100%;
-    height: 295px;
+    height: 395px;
 }
 .tests {
     display: none;

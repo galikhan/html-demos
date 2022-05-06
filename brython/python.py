@@ -10,15 +10,17 @@ if document.query['question']:
 
 # Transform markdown to html and insert in the document
 
-
 def run(ev):
     document["output_0"].clear()
-    code = document["editor"].text
+    code = document["textarea-editor"].value    
     code = imports + utils + stdout_to_textarea + code
+    # code = imports + utils + code
     code = replaceInput(code)
+    code = prepare_for_snowman(code)
     code = code.strip()
-    code = os.linesep.join(
-        [s for s in code.splitlines() if s and len(s) > 1])
+    # print(code)
+    #code = os.linesep.join(
+    #     [s for s in code.splitlines() if s and len(s) > 1])
     loc = {}
     try:
         exec(code, {"test_id": 0, "question_id": question_id}, loc)
@@ -174,7 +176,6 @@ def show_user_test_result():
     result_0 = storage["result_" + question_id + '_0']
     result_1 = storage["result_" + question_id + '_1']
     result_2 = storage["result_" + question_id + '_2']
-    print("hello world")
     if result_0 == 'True' and result_1 == 'True' and result_2 == 'True':
         document["test-result"] <= html.SPAN(
             "<span class='test-success'>test passed succesfully</span>")
@@ -182,10 +183,45 @@ def show_user_test_result():
         document["test-result"] <= html.SPAN(
             "<span class='test-fail'>test failed</span>")
 
+def prepare_for_snowman(code):
+    
+    add_tab_true = False
+    formattedCode = []
+    for row in code.splitlines():
+
+        if row == 'while True:' or add_tab_true :
+            row = "    " + row
+            add_tab_true = True
+
+        formattedCode.append(row)    
+
+    code = "\n".join(formattedCode)
+    code = code.replace("import random", 
+"""
+from browser import timer, bind, window, aio, html
+from browser.widgets import dialog
+
+import random 
+async def main():
+""")
+    code = code.replace("lines.read()", "document['input_0'].value")
+
+    str = """
+            input = html.INPUT()
+            document <= input
+            ev = await aio.event(input, 'blur')
+            letterGuessed = ev.target.value
+            input.remove()"""
+    code = code.replace("letterGuessed = input('Please guess a letter: ').lower()", str)
+    code = code.replace("break", 
+"""break
+aio.run(main())
+""")
+    
+    return code
+
 
 test_input_output = """
-<<<<<<< HEAD
-
 test_outputs = [
             ['* ** *** **** *****', '* ** *** ****', '* ** *** **** ***** ******'],
             ['10 9 8 7 6 5 4 3 2 1 0', '10 9 8 7 6 5 4 3 2 1 0', '10 9 8 7 6 5 4 3 2 1 0'],
@@ -243,9 +279,6 @@ test_outputs = [
             ['','',''],
             ['','','']
             ]
-=======
-test_outputs = [['5 6', '4 4', '9 20'],  ['5  6', '4 4', '9 20'],  ['5  6', '4 4', '9 20']]
->>>>>>> snowman begin
 
 def get_test_inputs():
     test_inputs = [
