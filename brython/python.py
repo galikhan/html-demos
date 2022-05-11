@@ -11,18 +11,20 @@ if document.query['question']:
 # Transform markdown to html and insert in the document
 
 def run(ev):
-    document["output_0"].clear()
+    document["input-letter"].clear()
+    document["output"].clear()
     code = document["textarea-editor"].value    
     code = imports + utils + stdout_to_textarea + code
     code = replaceInput(code)
     code = prepare_for_snowman(code)
+    # print(code)
     code = code.strip()
     loc = {}
     try:
         exec(code, {"test_id": 0, "question_id": question_id}, loc)
         document["error"].clear()
     except Exception as e:
-        document["output_0"].clear()
+        document["output"].clear()
         document["error"].clear()
         document["error"] <= "Exception: " + str(e)
         # exception_handler(e)
@@ -59,18 +61,18 @@ utils = """
 question_id = int(question_id)
 class MyOutput:
     def __init__(self):
-        self.console = document["output_0"]
+        self.console = document["output"]
     def write(self, text):
         self.console.text += text
 
-def readInput(test_id):
-    inputText = document["input_" + str(test_id)].value.strip()
+def readInput():
+    inputText = document["input"].value.strip()
     inputArray = []
     for i in inputText.split():
         inputArray.append(i)
     return inputArray
 
-inputArray = readInput(0)
+inputArray = readInput()
 
 outputArray = []
 """
@@ -80,7 +82,6 @@ def readTestInput(test_id):
     test_inputs = get_test_inputs()
     return test_inputs[question_id][test_id]
 
-inputArray = readInput(0)
 inputArray0 = readTestInput(0)
 inputArray1 = readTestInput(1)
 inputArray2 = readTestInput(2)
@@ -95,29 +96,20 @@ stdout_to_textarea = """
 sys.stdout = MyOutput()
 """
 
-
 def get_result_code():
     return """
 
 result = new_stdout.getvalue().strip()
 equal = False
 output = test_outputs[question_id][test_id]
-
 output = output.strip()
-
 sys.stdout = MyOutput()
-
 result = result.replace('\\n', ' ')
 
 if result.__eq__(output):
     equal = True
-
 storage["result_{}_{}"] = str(equal)
-
 """
-
-
-
 
 def exception_handler(e):
 
@@ -213,17 +205,34 @@ from browser.widgets import dialog
 import random 
 async def main():
 """)
-    code = code.replace("lines.read()", "document['input_0'].value")
+    code = code.replace("lines.read()", "document['input'].value")
 
     str = """
             input = html.INPUT()
-            document <= input
+            document['input-letter'] <= 'Please guess a letter: ' + input
+            document['input-letter'] <= html.BUTTON('Enter')
             ev = await aio.event(input, 'blur')
             letterGuessed = ev.target.value
-            input.remove()"""
+            document['input-letter'].clear()
+            document['output'].clear()
+            """
     code = code.replace("letterGuessed = input('Please guess a letter: ').lower()", str)
+
+    str = """
+        input = html.INPUT()
+        document['input-letter'] <= 'Do you want to play again? Enter Y to continue, any other key to quit' + input
+        document['input-letter'] <= html.BUTTON('Enter')
+        ev = await aio.event(input, 'blur')
+        continueGame = ev.target.value
+        document['input-letter'].clear()
+        document['output'].clear()
+        """
+
+    code = code.replace("continueGame = input('Do you want to play again? Enter Y to continue, any other key to quit')", str)
+
     code = code.replace("break", 
-"""break
+"""
+            break
 aio.run(main())
 """)
     

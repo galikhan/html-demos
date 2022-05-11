@@ -19,34 +19,36 @@ while True:
         print("You have {} attempts remaining".format(max_attempts - attempts))
         print("The current word is: {}".format(' '.join(hidden)))
         if attempts == 0:
-            print("""_
+            print("""
+                     _
                     /_\\
-                ('>')
-                >-- : --<
-                ( : )
+                   ('>')
+                 >-- : --<
+                   ( : )
                 _(_______)_""")
         elif attempts == 1:
-            print("""_
+            print("""
+                     _
                     /_\\
-                ('>')
-                >-- : --<
-                ( : )""")
+                   ('>')
+                 >-- : --<
+                   ( : )
+                   """)
         elif attempts == 2:
-            print("""_
+            print("""
+                     _
                     /_\\
-                ('>')
-                >-- : --<""")
+                   ('>')
+                 >-- : --<
+                    """)
         elif attempts == 3:
-            print("""_
+            print("""
+                     _
                     /_\\
-                ('>')""")
+                   ('>')
+                    """)
 
-        #input("Please guess a letter: ").lower()
-        # input = html.INPUT()
-        # document <= input
-        # ev = await aio.event(input, "blur")
         letterGuessed = input('Please guess a letter: ').lower()
-        # input.remove()
 
         if letterGuessed in word:
             print("You guessed correctly!", letterGuessed, "is in the word.")
@@ -70,12 +72,9 @@ while True:
             print("You lost! Your snowman melted!")
             print("The hidden word is", selected_word)
             GameOver = True
-    continueGame = input("Do you want to play again? Enter Y to continue, any other key to quit")
+    continueGame = input('Do you want to play again? Enter Y to continue, any other key to quit')
     if continueGame.upper() == 'Y':
         GameOver = False
     else:
         print("Thank You for playing. See you next time!")
     break
-
-
-#aio.run(main())

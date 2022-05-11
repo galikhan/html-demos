@@ -60,11 +60,11 @@ async def main():
         ev = await aio.event(input, 'blur')
         letterGuessed = ev.target.value
         input.remove()
-           # input.remove()
+        # input.remove()
 
         if letterGuessed in word:
             print("You guessed correctly!",
-                    letterGuessed, "is in the word.")
+                  letterGuessed, "is in the word.")
             for i in range(len(word)):
                 character = word[i]
                 if character == letterGuessed:
@@ -91,5 +91,6 @@ async def main():
         GameOver = False
     else:
         print("Thank You for playing. See you next time!")
-        break
+    break
+
 aio.run(main())

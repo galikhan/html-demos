@@ -1,7 +1,7 @@
 #editor {
     width: 685px;
     height: 350px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-left: 2px;
     background-color: #f2f7fc;
     box-shadow: 0 0 0 1px #6999FF;
@@ -9,6 +9,7 @@
     border-radius: 5px;
     -webkit-border-radius: 5px;
     line-height: 24px;
+    margin-right: 10px;
 }
 
 #error {
@@ -28,6 +29,7 @@
 .editor-panel {
     width: 100%;
     height: 395px;
+    padding-top: 10px;
 }
 .tests {
     display: none;
@@ -44,7 +46,7 @@
   margin: 15px 0 10px 0;
 }
 
-#input_0 {
+#input {
   margin: 0 8px 0 0;
   padding: 0 0 0 5px;
   background-color: #f2f7fc;
@@ -54,7 +56,7 @@
   line-height: 24px;
 }
 
-#output_0 {
+#output {
   padding: 0 0 0 5px;
   background-color: #f2f7fc;
   border:1px solid #6999FF;
@@ -129,4 +131,10 @@
   font-size: 18px;
   background-color: #6999FF;
   color: #1d3e7d;
+}
+
+
+
+.editor-panel div.items{
+    float:left;
 }
