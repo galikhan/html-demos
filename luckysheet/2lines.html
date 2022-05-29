@@ -1,0 +1,157 @@
+<!doctype html>
+
+<head>
+
+
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/plugins/css/pluginsCss.css' />
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/plugins/plugins.css' />
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/css/luckysheet.css' />
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/assets/iconfont/iconfont.css' />
+
+	<script src="https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/plugins/js/plugin.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/luckysheet.umd.min.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+ -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+	<script>
+
+		$(function () {
+			//Configuration item
+			var options = {
+				container: 'luckysheet', //luckysheet is the container id
+				lang: 'en',
+				showtoolbar: false
+			}
+			luckysheet.create(options);
+
+		});
+
+
+
+	</script>
+
+	<style type="text/css">
+		.luckysheet-grid-container {
+			/* top: 108px !important; */
+		}
+
+		.chart-button-div {
+			border-bottom: 1px solid #d4d4d4;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div id="luckysheet" style="margin:0px;padding:0px;position:absolute;width:50%;height:100%;left: 0px;top: 0px;">
+	</div>
+	<div style="width:50%; float:right">
+		<canvas id='myChart' style='width:50%'></canvas>
+	</div>
+	<script>
+
+
+
+		$(document).ready(function () {
+
+			var myChart;
+			var editor = $(".luckysheet-work-area").find()[0];
+			var gridContainer = $(".luckysheet").find('.luckysheet-grid-container').first();
+
+			$('#luckysheet_info_detail_update').before("<div class='chart-button-div'><button id='line-chart'>2 lines chart</button></div>");
+			$("#line-chart").click(function () {
+
+				const json = luckysheet.getRangeJson(false);
+				const dataDim = luckysheet.getRangeArray('twoDimensional');
+                // console.log('data ', dim2);
+				xAxis = dataDim[0];
+				y1 = dataDim[1];
+                y2 = dataDim[2];
+
+				xAxisClean = [];
+				y1DataClean = [];
+				y2DataClean = [];
+
+                for (var x = 0; x < xAxis.length; x++) {
+
+                    if(typeof xAxis[x] === 'number') {
+					// if (xAxis[x] !== 'x') {
+						xAxisClean.push(xAxis[x]);
+					}
+				}
+
+				for (var y = 0; y < y1.length; y++) {
+                    if(typeof y1[y] === 'number') {
+						y1DataClean.push(y1[y]);
+					}
+				}
+
+				for (var y = 0; y < y2.length; y++) {
+                    if(typeof y2[y] === 'number') {
+						y2DataClean.push(y2[y]);
+					}
+				}
+
+
+				const data = {
+					labels: xAxisClean,
+					datasets: [
+						{
+							label: 'y1',
+							data: y1DataClean,
+							xAxisID: 'x',
+                            borderColor: 'red',
+						},
+						{
+							label: 'y2',
+							data: y2DataClean,
+							xAxisID: 'x',
+                            borderColor: 'blue',
+						}
+					]
+				};
+
+				const config = {
+					type: 'line',
+					data: data,
+					options: {
+						responsive: true,
+						stacked: false,
+						plugins: {
+							title: {
+								display: true,
+								text: 'Line Chart'
+							}
+						},
+						scales: {
+							y: {
+								type: 'linear',
+								display: true,
+								position: 'left',
+							},
+						}
+					},
+				};
+
+				if (myChart) {
+					myChart.update();
+
+				} else {
+					const ctx = $('#myChart');
+					myChart = new Chart(ctx, config);
+				}
+			});
+
+			function isLetter(c) {
+				return c.toLowerCase() != c.toUpperCase();
+			}
+		});
+
+
+	</script>
+
+</body>
+
+</html>
