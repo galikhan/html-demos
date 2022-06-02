@@ -112,15 +112,27 @@ def replaceInput(code):
     updated_code = []
     for row in code.splitlines():
 
+        lower = False
+        upper = False
         row = replace_read(row)
-        # print(row)
         start, end, label, varName = input_row_parts(row)
-        #inputText = "input(" + label + ")"
 
         if "input(" in row:
+
+            if "lower()" in row:
+                lower = True
+            elif "upper()" in row:
+                upper = True
+
             indent = indent_find(row)
             row = "\n" + html_input(label, indent)
             row = row.replace("letter_guessed_qqqq", varName)
+
+            if lower:
+                row = row.replace("ev.target.value", "ev.target.value.lower()")
+            if upper:
+                row = row.replace("ev.target.value", "ev.target.value.upper()")
+
         updated_code.append("\n" + row)
     code = "".join(updated_code)
     return code
