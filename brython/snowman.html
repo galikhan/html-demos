@@ -19,11 +19,10 @@
 
 <body onload="brython()">
 
-    <script type="text/python" src="python.py"></script>
+    <script type="text/python" src="snowman.py"></script>
 
     <body>
         <button id="run-code" style="margin-right:5px">Run</button>
-        <button id="submit-code">Submit</button>
         <span id="test-result"></span>
         <div class="editor-panel">
             <textarea name="description" style="display: none;" id="textarea-editor"></textarea>
@@ -35,7 +34,7 @@
         </div>
         <div id="error"></div>
         <div id="input-output">
-            <textarea id="input" placeholder="Input...." rows="6" cols="39"></textarea>
+            <textarea id="input" placeholder="words.txt" rows="6" cols="39"></textarea>
         </div>
     </body>
 
@@ -47,12 +46,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script>
-        defaultCode = "     _"
-            + "\n    /_\\"
-            + "\n   ('>')"
-            + "\n >-- : --<"
-            + "\n   ( : )"
-            + "\n_(_______)_"
+        defaultCode = ""
 
         var editor = ace.edit("editor");
         editor.session.setMode("ace/mode/python");
@@ -66,4 +60,5 @@
         });
     </script>
 
-</html>
+</html><!doctype html>
+<html>

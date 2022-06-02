@@ -11,13 +11,11 @@ if document.query['question']:
 # Transform markdown to html and insert in the document
 
 def run(ev):
-    document["input-letter"].clear()
+    #document["input-letter"].clear()
     document["output"].clear()
     code = document["textarea-editor"].value    
     code = imports + utils + stdout_to_textarea + code
     code = replaceInput(code)
-    code = prepare_for_snowman(code)
-    # print(code)
     code = code.strip()
     loc = {}
     try:
@@ -184,60 +182,6 @@ def show_user_test_result():
         document["test-result"] <= html.SPAN(
             "<span class='test-fail'>test failed</span>")
 
-def prepare_for_snowman(code):
-    
-    add_tab_true = False
-    formattedCode = []
-    for row in code.splitlines():
-
-        if row == 'while True:' or add_tab_true :
-            row = "    " + row
-            add_tab_true = True
-
-        formattedCode.append(row)    
-
-    code = "\n".join(formattedCode)
-    code = code.replace("import random", 
-"""
-from browser import timer, bind, window, aio, html
-from browser.widgets import dialog
-
-import random 
-async def main():
-""")
-    code = code.replace("lines.read()", "document['input'].value")
-
-    str = """
-            input = html.INPUT()
-            document['input-letter'] <= 'Please guess a letter: ' + input
-            document['input-letter'] <= html.BUTTON('Enter')
-            ev = await aio.event(input, 'blur')
-            letterGuessed = ev.target.value
-            document['input-letter'].clear()
-            document['output'].clear()
-            """
-    code = code.replace("letterGuessed = input('Please guess a letter: ').lower()", str)
-
-    str = """
-        input = html.INPUT()
-        document['input-letter'] <= 'Do you want to play again? Enter Y to continue, any other key to quit' + input
-        document['input-letter'] <= html.BUTTON('Enter')
-        ev = await aio.event(input, 'blur')
-        continueGame = ev.target.value
-        document['input-letter'].clear()
-        document['output'].clear()
-        """
-
-    code = code.replace("continueGame = input('Do you want to play again? Enter Y to continue, any other key to quit')", str)
-
-    code = code.replace("break", 
-"""
-            break
-aio.run(main())
-""")
-    
-    return code
-
 
 test_input_output = """
 test_outputs = [
@@ -301,7 +245,7 @@ test_outputs = [
 def get_test_inputs():
     test_inputs = [
             [[5],[4],[6]],
-            [[],[],[]],
+            [[10],[10],[10]],
             [[],[],[]],
             [[5],[10],[15]],
             [[10,20],[10,30],[10,100]],
