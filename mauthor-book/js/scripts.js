@@ -1,48 +1,43 @@
-/*!
-* Start Bootstrap - Simple Sidebar v6.0.5 (https://startbootstrap.com/template/simple-sidebar)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
-*/
-// 
-// Scripts
-// 
-//
-/* <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Dashboard</a>
-<a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Shortcuts</a>
-<a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Overview</a>
-<a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Events</a>
-<a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Profile</a>
-<a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Status</a> */
+var qs = (function (a) {
+    if (a == "") return {};
+    var b = {};
+    for (var i = 0; i < a.length; ++i) {
+        var p = a[i].split('=', 2);
+        if (p.length == 1)
+            b[p[0]] = "";
+        else
+            b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+    }
+    return b;
+})(window.location.search.substr(1).split('&'));
 
 
 const LoadData = async () => {
+
     try {
 
-        const url = 'http://localhost/mauthor-book/json/algebra.json'
-        const res = await fetch(url);
-        const data = await res.json();
-        console.log();
+        if(qs.lesson && qs.lang) {
 
-        html = ""
+            document.getElementById("lesson-lang").innerHTML = qs.lang;
 
-        chapterCount = 0;
-        Array.from(data.chapters, chapter => {
-            console.log('chapter', chapter);
-            html = html + prepareChapterLink(chapterCount, chapter);
-            html = html + "<div style='display: none' id='chapter-" + chapterCount + "' class='list-group'>";
-            Array.from(chapter.topics, topic => {
-                console.log('topic', topic);
-                html = html + "<a class='topics list-group-item list-group-item-action list-group-item-light p-3' href='#!'>" + topic.title + "</a>";                
+            const url = "http://localhost/mauthor-book/json/" + qs.lesson + "-" + qs.lang + ".json"
+            const res = await fetch(url);
+            const data = await res.json();
+
+            html = ""
+            chapterCount = 0;
+            Array.from(data.chapters, chapter => {
+                html = html + prepareChapterLink(chapterCount, chapter);
+                html = html + "<div style='display: none' id='chapter-" + chapterCount + "' class='list-group'>";
+                Array.from(chapter.topics, topic => {
+                    html = html + "<a class='topics list-group-item list-group-item-action list-group-item-light' href='" + topic.url + "' target='iframe_a'>" + topic.title + "</a>";                
+                });
+                html = html + "</div>";
+                chapterCount++;
             });
-            html = html + "</div>";
-            chapterCount++;
-        });
-        document.getElementById("menu").innerHTML = html;
+            document.getElementById("menu").innerHTML = html;
+        }
 
-        // data.chapters.array.forEach(element => {
-        //     console.log(element);
-        // });
-    
     }catch(err) {
         console.error(err)
     }
@@ -53,7 +48,7 @@ function prepareChapterLink(chapterCount, chapter) {
     topics = Array.from(chapter.topics);
     link = "<a onclick='onChapterClick(" +chapterCount +")' id= " + chapterCount + " class='chapter list-group-item list-group-item-action list-group-item-light p-3' href='#!'>";
     link = link + chapter.title;
-    link = link + "<span class='badge badge-primary badge-pill'>"+ topics.length +"</span>";
+    // link = link + "<span class='badge badge-primary badge-pill'>"+ topics.length +"</span>";
     link = link + '</a>';
     return link;
 }
