@@ -149,7 +149,10 @@ def replace_read(row):
         #                     "(document['input'].value).splitlines()")
         # row = row.replace("file.read().splitlines()",
         #                     "(document['input'].value).splitlines()")
-
+    elif "readlines()" in row:
+        eqId = row.find(eq)
+        varName = row[0: eqId]
+        row = varName + " = (document['input'].value).splitlines() "
     return row
 
 def html_input(input_label, indent): 
