@@ -1,60 +1,226 @@
 {
-    "title": "7-сыныптағы алгебра курсын қайталау",
-    "chapters": [
+    "title": "ALGEBRA 8",
+    "chapters":[
       {
-        "title": "1-тарау: Квадрат түбір және иррационал өрнек",
+        "title": "Review Exercises for 5-7th Grades",
         "topics": [
           {
-            "title": "1.1.1 Нақты сандар",
-            "url": "https://www.mauthor.com/present/5934730889003008"
+            "title": "Review Exercises for 5-7th Grades",
+            "url": "https://www.mauthor.com/present/6413835178737664"
+          }
+        ]
+      },
+      {
+        "title": "chapter 1: Square roots and irrational expressions",
+        "topics": [
+          {
+            "title": "1.1.1 Real Numbers",
+            "url": "https://www.mauthor.com/present/4969831899725824"
           },
           {
-            "title": "1.1.2 Квадрат түбір",
-            "url": "https://www.mauthor.com/present/6474238961254400"
+            "title": "1.1.2 Understanding Square Roots",
+            "url": "https://www.mauthor.com/present/5143172795203584"
           },
           {
-            "title": "1.1.3 Квадрат түбірдің қасиеттері",
-            "url": "https://www.mauthor.com/present/5012562621628416"
+            "title": "1.1.3 Properties of Square Roots",
+            "url": "https://www.mauthor.com/present/6029634944237568"
           },
           {
-            "title": "1.1.4 Квадрат түбірді жуықтап есептеу",
-            "url": "https://www.mauthor.com/present/6007048608808960"
+            "title": "1.1.4 Estimating the Value of Square Roots",
+            "url": "https://www.mauthor.com/present/5989214646304768"
           },
           {
-            "title": "1.1 Бөлімді қайталау жаттығулары",
-            "url": "https://www.mauthor.com/present/6123497335685120"
+            "title": "1.1 Section Review Exercises",
+            "url": "https://www.mauthor.com/present/6439579749580800"
           },
           {
-            "title": "1.2.1 Құрамында квадрат түбірі бар өрнектерді тепе-тең түрлендіру",
-            "url": "https://www.mauthor.com/present/6493104336666624"
+            "title": "1.2.1 Working with Pure and Mixed Radicals",
+            "url": "https://www.mauthor.com/present/6752173802782720"
           },
           {
-            "title": "1.2.2 Квадрат түбірлерді қосу және азайту",
-            "url": "https://www.mauthor.com/present/5815448238686208"
+            "title": "1.2.2 Adding and Subtracting Square Roots",
+            "url": "https://www.mauthor.com/present/6459974158516224"
           },
           {
-            "title": "1.2.3 Квадрат түбірлерді көбейту",
-            "url": "https://www.mauthor.com/present/6126404458119168"
+            "title": "1.2.3 Multiplying Square Roots",
+            "url": "https://www.mauthor.com/present/5852762662895616"
           },
           {
-            "title": "1.2.4 Нақты сандарды салыстыру",
-            "url": "https://www.mauthor.com/present/5681651333595136"
+            "title": "1.2.4 Comparing Real Numbers",
+            "url": "https://www.mauthor.com/present/5836665016418304"
           },
           {
-            "title": "1.2.5 Бөлшек бөлімін иррационалдықтан босату",
-            "url": "https://www.mauthor.com/present/6051261555802112"
+            "title": "1.2.5 Rationalizing the denominators",
+            "url": "https://www.mauthor.com/present/6146531849273344"
           },
           {
-            "title": "1.2 Бөлімді қайталау жаттығулары",
-            "url": "https://www.mauthor.com/present/5732075122065408"
+            "title": "1.2 Section Review Exercises",
+            "url": "https://www.mauthor.com/present/5414452551352320"
           },
           {
-            "title": "1.3.1 𝑦=√𝑥 функциясы, оның графигі және қасиеттері",
-            "url": "https://www.mauthor.com/present/5859466502864896"
+            "title": "1.3.1 Function of the form 𝑦=√𝑥",
+            "url": "https://www.mauthor.com/present/5528968568111104"
           },
           {
-            "title": "1.3 Бөлімді қайталау жаттығулары",
-            "url": "https://www.mauthor.com/present/4634873482051584"
+            "title": "1.3 Section Review Exercises",
+            "url": "https://www.mauthor.com/present/4756005476499456"
+          }
+        ]
+      },
+      {
+        "title": "chapter 2: Quadratic equations",
+        "topics": [
+          {
+            "title": "2.1.1 Quadratic Trinomials",
+            "url": "https://www.mauthor.com/present/5613683400638464"
+          },
+          {
+            "title": "2.1 Section Review Exercises",
+            "url": "https://www.mauthor.com/present/5597358431272960"
+          },
+          {
+            "title": "2.2.1 Quadratic Equation",
+            "url": "https://www.mauthor.com/present/5796760206835712"
+          },
+          {
+            "title": "2.2.2 Solving Quadratic Equation of the form ax²=0, ax²+bx=0 and ax²+c=0",
+            "url": "https://www.mauthor.com/present/6496011954028544"
+          },
+          {
+            "title": "2.2.3 Solving Quadratic Equation by Factoring Method",
+            "url": "https://www.mauthor.com/present/5740074800644096"
+          },
+          {
+            "title": "2.2.4 Solving Quadratic Equations by Completing the Square Method",
+            "url": "https://www.mauthor.com/present/5148895704907776"
+          },
+          {
+            "title": "2.2.5 Solving Quadratic Equations by the Quadratic Formula",
+            "url": "https://www.mauthor.com/present/4521678478114816"
+          },
+          {
+            "title": "2.2.6 Discriminant of Quadratic Equations",
+            "url": "https://www.mauthor.com/present/5280037363908608"
+          },
+          {
+            "title": "2.2.7 Vieta’s theorem",
+            "url": "https://www.mauthor.com/present/5691252724596736"
+          },
+          {
+            "title": "2.2 Section Review Exercises",
+            "url": "https://www.mauthor.com/present/5246372604936192"
+          },
+          {
+            "title": "2.3.1 Solving quadratic equations involving absolute value",
+            "url": "https://www.mauthor.com/present/6654868474953728"
+          },
+          {
+            "title": "2.3.2 Solving Rational Equations",
+            "url": "https://www.mauthor.com/present/6134237639606272"
+          },
+          {
+            "title": "2.3.3 Solving Equations Reducible to Quadratic Form",
+            "url": "https://www.mauthor.com/present/6224181527707648"
+          },
+          {
+            "title": "2.3.4 Solving Word Problems",
+            "url": "https://www.mauthor.com/present/5461452378472448"
+          },
+          {
+            "title": "2.3 Section Review Exercises",
+            "url": "https://www.mauthor.com/present/6245927014236160"
+          }
+        ]
+      },
+      {
+        "title": "chapter 3: Quadratic function",
+        "topics": [
+          {
+            "title": "3.1.1 Quadratic Function. Graphs of Quadratic Functions",
+            "url": "https://www.mauthor.com/present/6630638307901440"
+          },
+          {
+            "title": "3.1.2 Quadratic Functions of the Form y = ax² + n, y = a(x – m)², y = a(x – m)² + n",
+            "url": "https://www.mauthor.com/present/5097511722811392"
+          },
+          {
+            "title": "3.1.3 Graphing y = ax² + bx + c",
+            "url": "https://www.mauthor.com/present/6278645202681856"
+          },
+          {
+            "title": "3.1.4 Equation of a Parabola",
+            "url": "https://www.mauthor.com/present/4946395177549824"
+          },
+          {
+            "title": "3.1.5 Solving Word Problems by using Quadratic Function",
+            "url": "https://www.mauthor.com/present/6166512464953344"
+          },
+          {
+            "title": "3.1 Section Review Exercises",
+            "url": "https://www.mauthor.com/present/4541988237606912"
+          }
+        ]
+      },
+      {
+        "title": "chapter 4: Elements of statictics",
+        "topics": [
+          {
+            "title": "4.1.1 Polygon of Frequencies. Histogram of Frequencies",
+            "url": "https://www.mauthor.com/present/6613017667698688"
+          },
+          {
+            "title": "4.1 Section Review Exercises",
+            "url": "https://www.mauthor.com/present/4885188764631040"
+          },
+          {
+            "title": "4.2.1 Average Value. Variance. Standard Deviation",
+            "url": "https://www.mauthor.com/present/4703387093958656"
+          },
+          {
+            "title": "4.2 Section Review Exercises",
+            "url": "https://www.mauthor.com/present/4867600244408320"
+          }
+        ]
+      },
+      {
+        "title": "chapter 5: Inequalities",
+        "topics": [
+          {
+            "title": "5.1.1 Concept of inequalities",
+            "url": "https://www.mauthor.com/present/5564785466408960"
+          },
+          {
+            "title": "5.1.2 Quadratic Inequalities",
+            "url": "https://www.mauthor.com/present/5037480453210112"
+          },
+          {
+            "title": "5.1 Section Review Exercises",
+            "url": "https://www.mauthor.com/present/6073505661190144"
+          },
+          {
+            "title": "5.2.1 Rational Inequalities",
+            "url": "https://www.mauthor.com/present/6154712377851904"
+          },
+          {
+            "title": "5.2 Section Review Exercises",
+            "url": "https://www.mauthor.com/present/6517279893880832"
+          },
+          {
+            "title": "5.3.1 System of Inequalitis",
+            "url": "https://www.mauthor.com/present/6743433854713856"
+          },
+          {
+            "title": "5.3 Section Review Exercises",
+            "url": "https://www.mauthor.com/present/5825775101673472"
+          }
+        ]
+      },
+      {
+        "title": "Review exercises for 8th grades ",
+        "topics": [
+          {
+            "title": "Review Exercises for 8th Grade",
+            "url": "https://www.mauthor.com/present/4807162093764608"
           }
         ]
       }
