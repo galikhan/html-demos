@@ -1,0 +1,144 @@
+{
+    "title": "geometry",
+    "chapters": [
+
+        [
+            {
+              "title": "chapter 1:  polygons. study of quadrilaterals ",
+              "topics": [
+                {
+                  "title": "1.1 Polygon. Convex polygon",
+                  "url": "https://www.mauthor.com/present/5653281992474624"
+                },
+                {
+                  "title": "1.2 Quadrilateral. Parallelogram and its properties",
+                  "url": "https://www.mauthor.com/present/5962665666674688"
+                },
+                {
+                  "title": "1.3 Rectangle and its properties",
+                  "url": "https://www.mauthor.com/present/6492885662433280"
+                },
+                {
+                  "title": "1.4 Rhombus and its properties",
+                  "url": "https://www.mauthor.com/present/6116960395460608"
+                },
+                {
+                  "title": "1.5 Square and its properties",
+                  "url": "https://www.mauthor.com/present/4559534210809856"
+                },
+                {
+                  "title": "1.6 Thales's theorem. Proportional segments",
+                  "url": "https://www.mauthor.com/present/5229231415623680"
+                },
+                {
+                  "title": "1.7 Trapezoid and its properties",
+                  "url": "https://www.mauthor.com/present/5750414959575040"
+                },
+                {
+                  "title": "1.8 Midline of triangle",
+                  "url": "https://www.mauthor.com/present/5913181603627008"
+                },
+                {
+                  "title": "1.9 Midline of trapezoid",
+                  "url": "https://www.mauthor.com/present/6187685286379520"
+                },
+                {
+                  "title": "1.10 Remarkable points of the triangle",
+                  "url": "https://www.mauthor.com/present/4903976939683840"
+                }
+              ]
+            },
+            {
+              "title": "chapter 2:  metric relations in right triangles ",
+              "topics": [
+                {
+                  "title": "2.1 Trigonometric functions of an acute angle in a right triangle",
+                  "url": "https://www.mauthor.com/present/6045082440040448"
+                },
+                {
+                  "title": "2.2 Pythagorean theorem",
+                  "url": "https://www.mauthor.com/present/5148287161729024"
+                },
+                {
+                  "title": "2.3 The Euclidean theorems",
+                  "url": "https://www.mauthor.com/present/5683544642420736"
+                },
+                {
+                  "title": "2.4 Basic Trigonometric identities",
+                  "url": "https://www.mauthor.com/present/5484353009876992"
+                },
+                {
+                  "title": "2.5 Trigonometric ratios of complementary angles",
+                  "url": "https://www.mauthor.com/present/6556657336844288"
+                },
+                {
+                  "title": "2.6 Finding a trigonometric ratio from a given ratio",
+                  "url": "https://www.mauthor.com/present/6468696406622208"
+                },
+                {
+                  "title": "2.7 Solving right triangles",
+                  "url": "https://www.mauthor.com/present/6603567934341120"
+                }
+              ]
+            },
+            {
+              "title": "chapter 3:  areas ",
+              "topics": [
+                {
+                  "title": "3.1 Areas of a figure and its properties",
+                  "url": "https://www.mauthor.com/present/5849785336201216"
+                },
+                {
+                  "title": "3.2 Area of the triangle 1",
+                  "url": "https://www.mauthor.com/present/4714891407130624"
+                },
+                {
+                  "title": "3.3 Area of the triangle 2",
+                  "url": "https://www.mauthor.com/present/6434715632009216"
+                },
+                {
+                  "title": "3.4 Area of a parallelogram",
+                  "url": "https://www.mauthor.com/present/5053889778417664"
+                },
+                {
+                  "title": "3.5 Area of a rhombus",
+                  "url": "https://www.mauthor.com/present/4587286276210688"
+                },
+                {
+                  "title": "3.6 Area of the trapezoid",
+                  "url": "https://www.mauthor.com/present/6586120812494848"
+                }
+              ]
+            },
+            {
+              "title": "chapter 4:  rectangular coordinate system on a plane  ",
+              "topics": [
+                {
+                  "title": "4.1 The coordinate plane. Distance between two points",
+                  "url": "https://www.mauthor.com/present/4855075205414912"
+                },
+                {
+                  "title": "4.2 Midpoint of a line segment",
+                  "url": "https://www.mauthor.com/present/5452713973907456"
+                },
+                {
+                  "title": "4.3 Equation of a line",
+                  "url": "https://www.mauthor.com/present/5045713771298816"
+                },
+                {
+                  "title": "4.4 Analytic geometry of circle",
+                  "url": "https://www.mauthor.com/present/6205540673388544"
+                },
+                {
+                  "title": "4.5 Equation of a circle tangent to an axis",
+                  "url": "https://www.mauthor.com/present/5338328752324608"
+                },
+                {
+                  "title": "4.6 Construction of a circle",
+                  "url": "https://www.mauthor.com/present/5515900056371200"
+                }
+              ]
+            }
+          ]
+    ]
+}

@@ -19,8 +19,10 @@ const LoadData = async () => {
         if(qs.lesson && qs.lang) {
 
             document.getElementById("lesson-lang").innerHTML = qs.lang;
-
-            const url = "http://localhost/mauthor-book/json/" + qs.lesson + "-" + qs.lang + ".json"
+            
+            // let domain = "https://mauthor.astanakitap.kz/ebook/json/";
+            let domain = "http://localhost/mauthor-book/json/";
+            const url =  domain + qs.lesson + "-" + qs.lang + ".json"
             const res = await fetch(url);
             const data = await res.json();
 
