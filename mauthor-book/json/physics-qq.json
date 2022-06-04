@@ -1,0 +1,216 @@
+{
+  "title": "physics kaz",
+  "chapters": [
+    {
+      "title": "chapter 1 heat phenomena Kaz",
+      "topics": [
+        {
+          "title": "1.1 Жылулық қозғалыс, броундық қозғалыс, диффузия",
+          "url": "https://www.mauthor.com/present/5469926994870272"
+        },
+        {
+          "title": "1.2 Температура, оны өлшеу тәсілдері, температураның шкалалары",
+          "url": "https://www.mauthor.com/present/5921923875340288"
+        },
+        {
+          "title": "1.3 Жылуөткізгіштік, конвекция, сәуле шығару",
+          "url": "https://www.mauthor.com/present/4578951221084160"
+        },
+        {
+          "title": "1.4 Табиғаттағы және техникадағы жылу берілу",
+          "url": "https://www.mauthor.com/present/5449900258623488"
+        },
+        {
+          "title": "1.5 Жылу мөлшері. Заттың меншікті жылу сыйымдылығы",
+          "url": "https://www.mauthor.com/present/5139029359722496"
+        },
+        {
+          "title": "1.6 Отынның энергиясы Отынның меншікті жану жылуы",
+          "url": "https://www.mauthor.com/present/4740048305651712"
+        },
+        {
+          "title": "1.7 Жылу үдерістеріндегі энергияның сақталу және айналу заңы",
+          "url": "https://www.mauthor.com/present/6656883619921920"
+        }
+      ]
+    },
+    {
+      "title": "chapter 2. states of matter Kaz",
+      "topics": [
+        {
+          "title": "2.1 Қатты денелердiң балқуы және қатаюы, балқу температурасы, меншiктi балқу жылуы.",
+          "url": "https://www.mauthor.com/present/4974585488998400"
+        },
+        {
+          "title": "2.2 Булану және конденсация.",
+          "url": "https://www.mauthor.com/present/6012793773490176"
+        },
+        {
+          "title": "2.3 Графикалық талдау",
+          "url": "https://www.mauthor.com/present/4640732354314240"
+        },
+        {
+          "title": "2.4 Ылғалдылық",
+          "url": "https://www.mauthor.com/present/4746871154802688"
+        }
+      ]
+    },
+    {
+      "title": "chapter 3. thermodynamics Kaz",
+      "topics": [
+        {
+          "title": "3.1 ТЕРМОДИНАМИКАНЫҢ БІРІНШІ ЗАҢЫ",
+          "url": "https://www.mauthor.com/present/5935312496361472"
+        },
+        {
+          "title": "3.2 Термодинамиканың екінші заңы",
+          "url": "https://www.mauthor.com/present/5588468117405696"
+        },
+        {
+          "title": "3.3 Жылу қозғалтқыштары",
+          "url": "https://www.mauthor.com/present/6042011899133952"
+        },
+        {
+          "title": "3.4 Жылу қозғалтқыштарының пайдалы әрекет коэффициенті",
+          "url": "https://www.mauthor.com/present/6628262519898112"
+        },
+        {
+          "title": "3.5 Жылу машиналарын пайдаланудағы экологиялық мәселелер",
+          "url": "https://www.mauthor.com/present/6221362284331008"
+        }
+      ]
+    },
+    {
+      "title": "chapter 4. electrostatics Kaz",
+      "topics": [
+        {
+          "title": "4.1 Электр заряды",
+          "url": "https://www.mauthor.com/present/4715490311798784"
+        },
+        {
+          "title": "4.2 Зарядтаудың тәсілдері",
+          "url": "https://www.mauthor.com/present/5443812519968768"
+        },
+        {
+          "title": "4.3 Электр зарядының сақталу заңы, Кулон заңы",
+          "url": "https://www.mauthor.com/present/5834528110804992"
+        },
+        {
+          "title": "4.4 Электр өрiсi,1",
+          "url": "https://www.mauthor.com/present/5220223661244416"
+        },
+        {
+          "title": "4.5 Электр өрісі 2",
+          "url": "https://www.mauthor.com/present/6230513089642496"
+        },
+        {
+          "title": "4.6 Электр өрісінің потенциалы және потенциалдар айырымы",
+          "url": "https://www.mauthor.com/present/4763496075624448"
+        },
+        {
+          "title": "4.7 Электр сыйымдылығы. Конденсатор",
+          "url": "https://www.mauthor.com/present/6196330074079232"
+        }
+      ]
+    },
+    {
+      "title": "chapter 5. electric current Kaz",
+      "topics": [
+        {
+          "title": "5.1 Электр тогы",
+          "url": "https://www.mauthor.com/present/6325003469062144"
+        },
+        {
+          "title": "5.2 Электр тізбегі. Кернеу",
+          "url": "https://www.mauthor.com/present/4834372431249408"
+        },
+        {
+          "title": "5.3 Электр кедергісі",
+          "url": "https://www.mauthor.com/present/5100142750990336"
+        },
+        {
+          "title": "5.4 Меншiктi кедергiсi",
+          "url": "https://www.mauthor.com/present/5952870322667520"
+        },
+        {
+          "title": "5.5 Өткiзгiштердi тiзбектей және параллель қосу",
+          "url": "https://www.mauthor.com/present/5166930633293824"
+        },
+        {
+          "title": "5.6 Электр тогының жұмысы мен қуаты",
+          "url": "https://www.mauthor.com/present/6486450190811136"
+        },
+        {
+          "title": "5.7 қысқа тұйықталу",
+          "url": "https://www.mauthor.com/present/6486450190811136"
+        },
+        {
+          "title": "5.8 Сұйықтардағы электр тогы",
+          "url": "https://www.mauthor.com/present/5575078691078144"
+        }
+      ]
+    },
+    {
+      "title": "chapter 6. electromagnetism Kaz",
+      "topics": [
+        {
+          "title": "6.1 Магнит өрiсi",
+          "url": "https://www.mauthor.com/present/5336161874214912"
+        },
+        {
+          "title": "6.2 Табиғаттағы магнит өрісі",
+          "url": "https://www.mauthor.com/present/6164697010798592"
+        },
+        {
+          "title": "6.3 Электроқозғалтқыш",
+          "url": "https://www.mauthor.com/present/6651458698739712"
+        },
+        {
+          "title": "6.4 Электр энергиясын өндіру",
+          "url": "https://www.mauthor.com/present/5787044562993152"
+        }
+      ]
+    },
+    {
+      "title": "chapter 7. optics Kaz",
+      "topics": [
+        {
+          "title": "7.1 Ай мен Күннің тұтылу",
+          "url": "https://www.mauthor.com/present/6739831073406976"
+        },
+        {
+          "title": "7.2 Жарықтың шағылуы",
+          "url": "https://www.mauthor.com/present/4837764339728384"
+        },
+        {
+          "title": "7.3 Сферикалық айна: ойыс айна",
+          "url": "https://www.mauthor.com/present/4685429097496576"
+        },
+        {
+          "title": "7.4 Сферикалық айна: дөңес айна",
+          "url": "https://www.mauthor.com/present/5486506801758208"
+        },
+        {
+          "title": "7.5 Жарықтың сынуы",
+          "url": "https://www.mauthor.com/present/6677254742081536"
+        },
+        {
+          "title": "7.6 Толық ішкі шағылу",
+          "url": "https://www.mauthor.com/present/5651796915257344"
+        },
+        {
+          "title": "7.7 Жұқа линза: жинағыш линза",
+          "url": "https://www.mauthor.com/present/4794407852834816"
+        },
+        {
+          "title": "7.8 Жұқа линза: шашыратқыш линза",
+          "url": "https://www.mauthor.com/present/5457356456067072"
+        },
+        {
+          "title": "7.9 Көз - оптикалық жүйе",
+          "url": "https://www.mauthor.com/present/4789130051059712"
+        }
+      ]
+    }
+  ]
+}
