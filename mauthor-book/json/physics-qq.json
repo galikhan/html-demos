@@ -2,7 +2,7 @@
   "title": "physics kaz",
   "chapters": [
     {
-      "title": "chapter 1 heat phenomena Kaz",
+      "title": "1-тарау. Жылу құбылыстары",
       "topics": [
         {
           "title": "1.1 Жылулық қозғалыс, броундық қозғалыс, диффузия",
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "title": "chapter 2. states of matter Kaz",
+      "title": "2-тарау. Заттың агрегаттық күйлері",
       "topics": [
         {
           "title": "2.1 Қатты денелердiң балқуы және қатаюы, балқу температурасы, меншiктi балқу жылуы.",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "title": "chapter 3. thermodynamics Kaz",
+      "title": "3-тарау. Термодинамика негiздерi",
       "topics": [
         {
           "title": "3.1 ТЕРМОДИНАМИКАНЫҢ БІРІНШІ ЗАҢЫ",
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "title": "chapter 4. electrostatics Kaz",
+      "title": "4-тарау. Электростатика негіздері",
       "topics": [
         {
           "title": "4.1 Электр заряды",
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "title": "chapter 5. electric current Kaz",
+      "title": "5-тарау. Тұрақты электр тогы",
       "topics": [
         {
           "title": "5.1 Электр тогы",
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "title": "chapter 6. electromagnetism Kaz",
+      "title": "6-тарау. Электромагниттік құбылыстар",
       "topics": [
         {
           "title": "6.1 Магнит өрiсi",
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "title": "chapter 7. optics Kaz",
+      "title": "7-тарау. Жарық құбылыстары",
       "topics": [
         {
           "title": "7.1 Ай мен Күннің тұтылу",
