@@ -6,3 +6,17 @@
 .topics {
     font-size: 14px;
 }
+
+.card-title {
+    text-align: center;
+}
+.card {
+    width: 18rem;
+    background-color: antiquewhite;
+    float:left;
+    margin-top:10px;
+    margin-right: 10px;
+}
+body {
+    padding-top: 10px;
+}
