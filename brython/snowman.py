@@ -43,7 +43,7 @@ def run(ev):
 
 imports = """
 import sys
-from browser import document
+from browser import document, window, bind
 from io import StringIO
 from browser.local_storage import storage
 """
@@ -101,31 +101,33 @@ def exception_handler(e):
     print("Exception message : %s" % ex_value)
     print("Stack trace : %s" % stack_trace)
 
+
 def wrap_async(code):
     prefix = ['from browser import aio, html', 'async def main():']
     code = '\n'.join(prefix) + code
-    code = code + '\naio.run(main())'     
+    code = code + '\naio.run(main())'
     return code
+
 
 def replaceInput(code):
 
     updated_code = []
+    counter = 0
     for row in code.splitlines():
 
         lower = False
         upper = False
         row = replace_read(row)
-        start, end, label, varName = input_row_parts(row)
-
+        label, varName = input_row_parts(row)
         if "input(" in row:
-
             if "lower()" in row:
                 lower = True
             elif "upper()" in row:
                 upper = True
 
             indent = indent_find(row)
-            row = "\n" + html_input(label, indent)
+            counter = counter + 1
+            row = "\n" + html_input(label, indent, counter)
             row = row.replace("letter_guessed_qqqq", varName)
 
             if lower:
@@ -155,58 +157,71 @@ def replace_read(row):
         row = varName + " = (document['input'].value).splitlines() "
     return row
 
-def html_input(input_label, indent): 
 
+def html_input(input_label, indent, counter):
+    counter = str(counter)
+    if not input_label:
+        input_label = "''"
     rows = [
-        "html_input_qqqq = html.INPUT()",
-        "document['input-letter'] <= " + input_label,
+        "html_input_qqqq = html.INPUT(**{'id':'input-letter-" + counter + "', 'onfocusout':'scrollDown(" +
+        counter + ")'})",
+
+        "document['input-letter'] <= html.DIV("+input_label+", **{'id':'div-letter-" + counter + "'})",
         "document['input-letter'] <= html_input_qqqq",
-        "document['input-letter'] <= html.BUTTON('Enter')",
+        #        "document['input-letter'] <= html.BUTTON('Enter')",
+        "document['input-letter'] <= html.BUTTON('Enter', **{'onclick': 'scrollDown(" +
+        counter + ")','id':'input-button-" + counter + "'})",
         "ev = await aio.event(html_input_qqqq, 'blur')",
         "letter_guessed_qqqq = ev.target.value",
         "try:",
         "    letter_guessed_qqqq = int(letter_guessed_qqqq)",
         "except:",
         "    letter_guessed_qqqq = letter_guessed_qqqq",
-        "document['input-letter'].clear()"
+        # "document['input-letter'].clear()"
     ]
     new_rows = []
     for row in rows:
         new_rows.append(indent + row)
-    return "\n".join(new_rows) 
+    return "\n".join(new_rows)
 
-def input_row_parts(row): 
+
+def input_row_parts(row):
     dquote = '\"'
     squote = '\''
     eq = '='
-    if "input(" in row: 
-        startId = row.find(dquote) 
+    if "input()" in row:
+        eqId = row.find(eq)
+        return '', row[0: eqId].strip()
+    elif "input(" in row:
+        startId = row.find(dquote)
         endId = row.rfind(dquote)
         eqId = row.find(eq)
-        if startId == -1 and endId == -1: 
+        if startId == -1 and endId == -1:
             startId = row.find(squote)
             endId = row.rfind(squote)
-            if startId == -1 and endId == -1: 
-                return 0, 0, "", row[0 : eqId].strip()                
-        return startId, endId, row[startId : endId + 1], row[0 : eqId].strip()
-    return -1,-1,'',''    
+            if startId == -1 and endId == -1:
+                return 0, 0, "", row[0: eqId].strip()
+        return row[startId: endId + 1], row[0: eqId].strip()
+    return '', ''
 
-def addTabsToUserCode(code): 
+
+def addTabsToUserCode(code):
     formattedCode = []
     for row in code.splitlines():
-        row = "    " +  row
-        formattedCode.append(row)    
+        row = "    " + row
+        formattedCode.append(row)
     code = "\n".join(formattedCode)
     return code
 
 
 def replaceInputById(code, test_id):
-    inputArray=get_input_array(test_id)
+    inputArray = get_input_array(test_id)
     return code.replace("input()", inputArray)
 
 
 def get_input_array(test_id):
     return "inputArray.pop(0)"
+
 
 def indent_find(row):
     leading_spaces = len(row) - len(row.lstrip())
