@@ -1,0 +1,311 @@
+{
+    "title": "biology-ru",
+    "chapters": [
+      {
+        "title": "Клеточная биология",
+        "topics": [
+          {
+            "title": "1.1 Строение клеток прокариот и эукариот",
+            "url": "https://www.mauthor.com/present/5136691244957696"
+          },
+          {
+            "title": "1.2 Классификация тканей растений и животных",
+            "url": "https://www.mauthor.com/present/5190418467258368"
+          }
+        ]
+      },
+      {
+        "title": "Молекулярная биология",
+        "topics": [
+          {
+            "title": "2.1 Мономеры и полимеры",
+            "url": "https://www.mauthor.com/present/4793471994560512"
+          },
+          {
+            "title": "2.2 Углеводы и жиры",
+            "url": "https://www.mauthor.com/present/5205412844011520"
+          },
+          {
+            "title": "2.3 Белки",
+            "url": "https://www.mauthor.com/present/5057254658801664"
+          }
+        ]
+      },
+      {
+        "title": "Разнообразие живых организмов",
+        "topics": [
+          {
+            "title": "3.1 Разнообразие растений",
+            "url": "https://www.mauthor.com/present/5025612720373760"
+          },
+          {
+            "title": "3.2 Царство Грибы",
+            "url": "https://www.mauthor.com/present/6560449952350208"
+          },
+          {
+            "title": "3.3 Однодольные и двудольные растения",
+            "url": "https://www.mauthor.com/present/6639712902709248"
+          },
+          {
+            "title": "3.4 Членистоногие и хордовые животные",
+            "url": "https://www.mauthor.com/present/4675787541839872"
+          }
+        ]
+      },
+      {
+        "title": "Питание",
+        "topics": [
+          {
+            "title": "4.1 Пищеварительная система",
+            "url": "https://www.mauthor.com/present/6372958657970176"
+          },
+          {
+            "title": "4.2 Строение, функции и гигиена зубов",
+            "url": "https://www.mauthor.com/present/6095537232805888"
+          },
+          {
+            "title": "4.3 Органы пищеварения",
+            "url": "https://www.mauthor.com/present/6561756830367744"
+          },
+          {
+            "title": "4.4 Предупреждение желудочно-кишечных заболеваний",
+            "url": "https://www.mauthor.com/present/5718865782374400"
+          },
+          {
+            "title": "4.5 Витамины",
+            "url": "https://www.mauthor.com/present/6444604215394304"
+          }
+        ]
+      },
+      {
+        "title": "Транспорт веществ",
+        "topics": [
+          {
+            "title": "5.1 Лимфатическая система",
+            "url": "https://www.mauthor.com/present/5709119385894912"
+          },
+          {
+            "title": "5.10 Влияния физических упражнений на работу сердца",
+            "url": "https://www.mauthor.com/present/5309096735145984"
+          },
+          {
+            "title": "5.11 Заболевания сердечно-сосудистой системы",
+            "url": "https://www.mauthor.com/present/6199226425540608"
+          },
+          {
+            "title": "5.2 Состав и функции крови",
+            "url": "https://www.mauthor.com/present/4660433864228864"
+          },
+          {
+            "title": "5.3 Клетки крови",
+            "url": "https://www.mauthor.com/present/4749735000408064"
+          },
+          {
+            "title": "5.4 Иммунитет. Гуморальный и клеточный иммунитет",
+            "url": "https://www.mauthor.com/present/6259397147361280"
+          },
+          {
+            "title": "5.5 Инфекционные заболевания",
+            "url": "https://www.mauthor.com/present/6674998651125760"
+          },
+          {
+            "title": "5.6 Иммунитет. Виды иммунитета",
+            "url": "https://www.mauthor.com/present/5122678352117760"
+          },
+          {
+            "title": "5.7 Группы крови",
+            "url": "https://www.mauthor.com/present/5805214313086976"
+          },
+          {
+            "title": "5.8 Сердце и кровеносные сосуды",
+            "url": "https://www.mauthor.com/present/4547728260071424"
+          },
+          {
+            "title": "5.9 Типы кровеносных систем",
+            "url": "https://www.mauthor.com/present/4996673163624448"
+          }
+        ]
+      },
+      {
+        "title": "Дыхание",
+        "topics": [
+          {
+            "title": "6.1 Газообмен",
+            "url": "https://www.mauthor.com/present/4560844553322496"
+          },
+          {
+            "title": "6.2 Дыхание",
+            "url": "https://www.mauthor.com/present/5637337572311040"
+          },
+          {
+            "title": "6.3 Жизненный объем легких",
+            "url": "https://www.mauthor.com/present/5456602932576256"
+          }
+        ]
+      },
+      {
+        "title": "Выделение",
+        "topics": [
+          {
+            "title": "7.1 Мочевыделительная система",
+            "url": "https://www.mauthor.com/present/5813259432755200"
+          },
+          {
+            "title": "7.2 Значение кожи, строение и функции",
+            "url": "https://www.mauthor.com/present/5202654829084672"
+          },
+          {
+            "title": "7.3 Кожные заболевания",
+            "url": "https://www.mauthor.com/present/6112577985314816"
+          }
+        ]
+      },
+      {
+        "title": "Движение.Биофизика",
+        "topics": [
+          {
+            "title": "8.1 Опорно-двигательная система",
+            "url": "https://www.mauthor.com/present/5770002829017088"
+          },
+          {
+            "title": "8.2 Макро- и микроскопическое строение кости",
+            "url": "https://www.mauthor.com/present/6668007048347648"
+          },
+          {
+            "title": "8.3 Типы соединений костей",
+            "url": "https://www.mauthor.com/present/5656129933279232"
+          },
+          {
+            "title": "8.4 Подвижные соединения",
+            "url": "https://www.mauthor.com/present/5691965689167872"
+          },
+          {
+            "title": "8.5 Строение и функции мышечной ткани",
+            "url": "https://www.mauthor.com/present/5603436749520896"
+          },
+          {
+            "title": "8.6 Гиподинамия",
+            "url": "https://www.mauthor.com/present/5476484965335040"
+          },
+          {
+            "title": "8.7 Биомеханика движения",
+            "url": "https://www.mauthor.com/present/4713055669321728"
+          }
+        ]
+      },
+      {
+        "title": "Координация и регуляция",
+        "topics": [
+          {
+            "title": "9.1 Строение органа зрения",
+            "url": "https://www.mauthor.com/present/6136000346193920"
+          },
+          {
+            "title": "9.2 Строение органа слуха",
+            "url": "https://www.mauthor.com/present/5884598839541760"
+          },
+          {
+            "title": "9.3 Рецепторы",
+            "url": "https://www.mauthor.com/present/6021870314455040"
+          },
+          {
+            "title": "9.4 Эндокринные железы",
+            "url": "https://www.mauthor.com/present/5638245689458688"
+          },
+          {
+            "title": "9.5 Заболевания, вызванные нарушениями функций эндокринных желез",
+            "url": " https://www.mauthor.com/present/5390009355599872"
+          },
+          {
+            "title": "9.6 Рецепторы тела человека",
+            "url": "https://www.mauthor.com/present/4784180327743488"
+          },
+          {
+            "title": "9.7 Роль кожи в терморегуляции",
+            "url": "https://www.mauthor.com/present/5078607046770688"
+          }
+        ]
+      },
+      {
+        "title": "Размножение",
+        "topics": [
+          {
+            "title": "10.1 Биологическое значение митоза и мейоза",
+            "url": "https://www.mauthor.com/present/5553976845664256"
+          },
+          {
+            "title": "10.2 Формы размножения животных",
+            "url": "https://www.mauthor.com/present/6363989692514304"
+          },
+          {
+            "title": "10.3 Жизненный цикл мхов и папоротников",
+            "url": "https://www.mauthor.com/present/5597276625567744"
+          },
+          {
+            "title": "10.4 Жизненный цикл голосеменных и покрытосеменных растений",
+            "url": "https://www.mauthor.com/present/4791804565782528"
+          }
+        ]
+      },
+      {
+        "title": "Рост и развитие",
+        "topics": [
+          {
+            "title": "11.1 Этапы эмбрионального развития",
+            "url": "https://www.mauthor.com/present/5700053515239424"
+          }
+        ]
+      },
+      {
+        "title": "Наследственность и изменчивость",
+        "topics": [
+          {
+            "title": "12.1 Роль наследственности и изменчивости в эволюции",
+            "url": "https://www.mauthor.com/present/5215514498039808"
+          },
+          {
+            "title": "12.2 Искусственный отбор",
+            "url": "https://www.mauthor.com/present/6476139878547456"
+          },
+          {
+            "title": "12.3 Центры происхождения культурных растений и домашних животных",
+            "url": "https://www.mauthor.com/present/4734897859723264"
+          },
+          {
+            "title": "12.4 Посевные культуры и породы домашних животных Казахстана",
+            "url": "https://www.mauthor.com/present/6681848989745152"
+          }
+        ]
+      },
+      {
+        "title": "Биосфера, экосистема, популяция",
+        "topics": [
+          {
+            "title": "13.1 Компоненты экосистемы",
+            "url": "https://www.mauthor.com/present/5956879313928192"
+          },
+          {
+            "title": "13.2 Популяция",
+            "url": "https://www.mauthor.com/present/4726905328238592"
+          },
+          {
+            "title": "13.3 Типы взаимоотношений между организмами",
+            "url": "https://www.mauthor.com/present/4887693468762112"
+          }
+        ]
+      },
+      {
+        "title": "Влияние человеческой деятельности на окружающую среду",
+        "topics": [
+          {
+            "title": "14.1 Сохранение биологического разнообразия",
+            "url": "https://www.mauthor.com/present/5637030616367104"
+          },
+          {
+            "title": "14.2 Экологические проблемы Республики Казахстана",
+            "url": "https://www.mauthor.com/present/5922814208638976"
+          }
+        ]
+      }
+    ]
+  }

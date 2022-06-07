@@ -11,6 +11,8 @@ var qs = (function (a) {
     return b;
 })(window.location.search.substr(1).split('&'));
 
+// const globalDomain = "https://mauthor.astanakitap.kz/ebook";
+const globalDomain = "http://localhost/mauthor-book-offline";
 
 const LoadData = async () => {
 
@@ -18,9 +20,7 @@ const LoadData = async () => {
 
         if (qs.lesson && qs.lang) {
 
-            // document.getElementById("lesson-lang").innerHTML = qs.lang;
-            // let domain = "https://mauthor.astanakitap.kz/ebook/json/";
-            let domain = "http://localhost/mauthor-book/json/";
+            let domain = globalDomain + "/json/";
             const url = domain + qs.lesson + "-" + qs.lang + ".json"
             const res = await fetch(url);
             const data = await res.json();
@@ -30,7 +30,8 @@ const LoadData = async () => {
                 html = html + prepareChapterLink(chapterCount, chapter);
                 html = html + "<div style='display: none' id='chapter-" + chapterCount + "' class='list-group'>";
                 Array.from(chapter.topics, topic => {
-                    html = html + "<a class='topics list-group-item list-group-item-action list-group-item-light' href='" + topic.url + "' target='iframe_a'>" + topic.title + "</a>";
+                    const scormUrl = getLessonUrl(qs.lesson, qs.lang) + topic.folder;
+                    html = html + "<a class='topics list-group-item list-group-item-action list-group-item-light' href='" + scormUrl + "' target='iframe_a'>" + topic.title + "</a>";
                 });
                 html = html + "</div>";
                 chapterCount++;
@@ -69,6 +70,9 @@ const LoadData = async () => {
     }
 };
 LoadData();
+function getLessonUrl(lesson, lang) {
+    return globalDomain + '/scorm/' + lesson + '/' + lang + '/';
+}
 
 function prepareChapterLink(chapterCount, chapter) {
     topics = Array.from(chapter.topics);
