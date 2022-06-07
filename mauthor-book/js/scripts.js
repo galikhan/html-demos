@@ -151,14 +151,14 @@ function getBooksByLessonName(lesson) {
                 "title": "Informatics 8 textbook",
                 "class": "Сыныбы: 8",
                 "author": "Авторлары:  -",
-                "lang": "Оқыту тілі  english"
+                "lang": "Оқыту тілі :english"
                 , "lg": "en",
                 "lesson": "informatics"
             }, {
                 "title": "Информатика 8 оқулығы",
                 "class": "Сыныбы: 8",
                 "author": "Авторлары:  -",
-                "lang": "Оқыту тілі  қазақша"
+                "lang": "Оқыту тілі :қазақша"
                 , "lg": "qq",
                 "lesson": "informatics"
 
@@ -166,7 +166,7 @@ function getBooksByLessonName(lesson) {
                 "title": "Информатика 8 учебник",
                 "class": "Сыныбы: 8",
                 "author": "Авторлары:  -",
-                "lang": "Оқыту тілі  на русском языке"
+                "lang": "Оқыту тілі :на русском языке"
                 , "lg": "ru",
                 "lesson": "informatics"
 
@@ -174,7 +174,7 @@ function getBooksByLessonName(lesson) {
                 "title": "Informatics 8 қостілді оқулық",
                 "class": "Сыныбы: 8",
                 "author": "Авторлары:  -",
-                "lang": "Оқыту тілі  қазақша-ағылшынша"
+                "lang": "Оқыту тілі :қазақша-ағылшынша"
                 , "lg": "en-qq",
                 "lesson": "informatics"
 
@@ -182,7 +182,7 @@ function getBooksByLessonName(lesson) {
                 "title": "Informatics  8 билингвальный учебник",
                 "class": "Сыныбы: 8",
                 "author": "Авторлары:  -",
-                "lang": "Оқыту тілі  русско-английский"
+                "lang": "Оқыту тілі :русско-английский"
                 , "lg": "en-ru",
                 "lesson": "informatics"
 
@@ -194,7 +194,7 @@ function getBooksByLessonName(lesson) {
                     "title": "Biology 8 textbook",
                     "class": "Сыныбы: 8",
                     "author": "Авторлары:  -",
-                    "lang": "Оқыту тілі  english"
+                    "lang": "Оқыту тілі :english"
                     , "lg": "en",
                     "lesson": "biology"
 
@@ -203,7 +203,7 @@ function getBooksByLessonName(lesson) {
                     "title": "Биология 8 оқулығы",
                     "class": "Сыныбы: 8",
                     "author": "Авторлары:  -",
-                    "lang": "Оқыту тілі  қазақша"
+                    "lang": "Оқыту тілі :қазақша"
                     , "lg": "qq",
                     "lesson": "biology"
 
@@ -212,7 +212,7 @@ function getBooksByLessonName(lesson) {
                     "title": "Биология 8 учебник",
                     "class": "Сыныбы: 8",
                     "author": "Авторлары:  -",
-                    "lang": "Оқыту тілі  на русском языке",
+                    "lang": "Оқыту тілі :на русском языке",
                     "lg": "ru",
                     "lesson": "biology"
 
@@ -222,7 +222,7 @@ function getBooksByLessonName(lesson) {
                     "title": "Biology 8 қостілді оқулық",
                     "class": "Сыныбы: 8",
                     "author": "Авторлары:  -",
-                    "lang": "Оқыту тілі  қазақша-ағылшынша"
+                    "lang": "Оқыту тілі :қазақша-ағылшынша"
                     , "lg": "en-qq",
                     "lesson": "biology"
 
@@ -231,7 +231,7 @@ function getBooksByLessonName(lesson) {
                     "title": "Biology 8 билингвальный учебник",
                     "class": "Сыныбы: 8",
                     "author": "Авторлары:  -",
-                    "lang": "Оқыту тілі  русско-английский"
+                    "lang": "Оқыту тілі :русско-английский"
                     , "lg": "en-ru",
                     "lesson": "biology"
 
@@ -244,7 +244,7 @@ function getBooksByLessonName(lesson) {
                 "title": "Physics 8 textbook",
                 "class": "Сыныбы: 8",
                 "author": "Авторлары:  -",
-                "lang": "Оқыту тілі  english",
+                "lang": "Оқыту тілі :english",
                 "lg": "en",
                 "lesson": "physics"
 
@@ -253,7 +253,7 @@ function getBooksByLessonName(lesson) {
                 "title": "Физика 8 оқулығы",
                 "class": "Сыныбы: 8",
                 "author": "Авторлары:  -",
-                "lang": "Оқыту тілі  қазақша",
+                "lang": "Оқыту тілі :қазақша",
                 "lg": "qq",
                 "lesson": "physics"
 
@@ -262,7 +262,7 @@ function getBooksByLessonName(lesson) {
                 "title": "Физика 8 учебник",
                 "class": "Сыныбы: 8",
                 "author": "Авторлары:  -",
-                "lang": "Оқыту тілі  на русском языке",
+                "lang": "Оқыту тілі :на русском языке",
                 "lg": "ru",
                 "lesson": "physics"
 
@@ -271,7 +271,7 @@ function getBooksByLessonName(lesson) {
                 "title": "Physics 8 қостілді оқулық",
                 "class": "Сыныбы: 8",
                 "author": "Авторлары:  -",
-                "lang": "Оқыту тілі  қазақша-ағылшынша",
+                "lang": "Оқыту тілі :қазақша-ағылшынша",
                 "lg": "en-qq",
                 "lesson": "physics"
             }, {
@@ -280,7 +280,7 @@ function getBooksByLessonName(lesson) {
                 "title": "Physics 8 билингвальный учебник",
                 "class": "Сыныбы: 8",
                 "author": "Авторлары:  -",
-                "lang": "Оқыту тілі  русско-английский",
+                "lang": "Оқыту тілі :русско-английский",
                 "lg": "en-ru",
                 "lesson": "physics"
 
@@ -290,7 +290,7 @@ function getBooksByLessonName(lesson) {
                 "title": "Chemistry 8 textbook",
                 "class": "Сыныбы: 8",
                 "author": "Авторлары:  -",
-                "lang": "Оқыту тілі  english",
+                "lang": "Оқыту тілі :english",
                 "lg": "en",
                 "lesson": "chemistry"
 
@@ -299,7 +299,7 @@ function getBooksByLessonName(lesson) {
                 "title": "Химия 8 оқулығы",
                 "class": "Сыныбы: 8",
                 "author": "Авторлары:  -",
-                "lang": "Оқыту тілі  қазақша",
+                "lang": "Оқыту тілі :қазақша",
                 "lg": "qq",
                 "lesson": "chemistry"
 
@@ -308,7 +308,7 @@ function getBooksByLessonName(lesson) {
                 "title": "Химия 8 учебник",
                 "class": "Сыныбы: 8",
                 "author": "Авторлары:  -",
-                "lang": "Оқыту тілі  на русском языке",
+                "lang": "Оқыту тілі :на русском языке",
                 "lg": "ru",
                 "lesson": "chemistry"
             }, {
@@ -316,7 +316,7 @@ function getBooksByLessonName(lesson) {
                 "title": "Chemistry 8 қостілді оқулық",
                 "class": "Сыныбы: 8",
                 "author": "Авторлары:  -",
-                "lang": "Оқыту тілі  қазақша-ағылшынша",
+                "lang": "Оқыту тілі :қазақша-ағылшынша",
                 "lg": "en-qq",
                 "lesson": "chemistry"
 
@@ -325,7 +325,7 @@ function getBooksByLessonName(lesson) {
                 "title": "Chemistry 8 билингвальный учебник",
                 "class": "Сыныбы: 8",
                 "author": "Авторлары:  -",
-                "lang": "Оқыту тілі  русско-английский",
+                "lang": "Оқыту тілі :русско-английский",
                 "lg": "en-ru",
                 "lesson": "chemistry"
 
