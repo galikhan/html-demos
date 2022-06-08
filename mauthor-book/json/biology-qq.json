@@ -1,311 +1,367 @@
 {
     "title": "biology-qq",
     "chapters": [
-      {
-        "title": "Жасушалық биология ",
-        "topics": [
-          {
-            "title": "1.1 Жасушаның құрылысы және түрлері",
-            "url": "https://www.mauthor.com/present/6646610595020800"
-          },
-          {
-            "title": "1.2 Өсімдік және жануар ұлпалары",
-            "url": "https://www.mauthor.com/present/5546056833695744"
-          }
-        ]
-      },
-      {
-        "title": "Молекулалық биология ",
-        "topics": [
-          {
-            "title": "2.1 Мономерлер және полимерлер",
-            "url": " https://www.mauthor.com/present/5298073676414976"
-          },
-          {
-            "title": "2.2 Көмірсулар мен липидтер",
-            "url": "https://www.mauthor.com/present/4806446352564224"
-          },
-          {
-            "title": "2.3 Нәруыздар",
-            "url": "https://www.mauthor.com/present/5891181573177344"
-          }
-        ]
-      },
-      {
-        "title": "Тірі ағзалардың көп түрлілігі ",
-        "topics": [
-          {
-            "title": "3.1 Өсімдіктердің көп түрлілігі",
-            "url": "https://www.mauthor.com/present/5743550771363840"
-          },
-          {
-            "title": "3.2 Саңырауқұлақтар патшалығы",
-            "url": "https://www.mauthor.com/present/6084936137834496"
-          },
-          {
-            "title": "3.3 Дара жарнақты және қосжарнақтылар өсімдіктер",
-            "url": "https://www.mauthor.com/present/5253804777406464"
-          },
-          {
-            "title": "3.4 Буынаяқтылар мен хордалылар",
-            "url": "https://www.mauthor.com/present/4745391110750208"
-          }
-        ]
-      },
-      {
-        "title": "Қоректену ",
-        "topics": [
-          {
-            "title": "4.1 Асқорыту жүйесі",
-            "url": " https://www.mauthor.com/present/4536583247757312"
-          },
-          {
-            "title": "4.2 Тістің құрылысы мен қызметі және тіс гигиенасы",
-            "url": "https://www.mauthor.com/present/4587216055173120"
-          },
-          {
-            "title": "4.3 Асқорыту мүшелері",
-            "url": "https://www.mauthor.com/present/5490128398712832"
-          },
-          {
-            "title": "4.4 Асқорыту мүшелері ауруларының алдын алу",
-            "url": "https://www.mauthor.com/present/5520626466553856"
-          },
-          {
-            "title": "4.5 Дәрумендер",
-            "url": "https://www.mauthor.com/present/4883831194255360"
-          }
-        ]
-      },
-      {
-        "title": "Заттардың тасымалдануы",
-        "topics": [
-          {
-            "title": "5.1 Лимфа жүйесі",
-            "url": "https://www.mauthor.com/present/5927783393525760"
-          },
-          {
-            "title": "5.10 Дене жаттығулары және жүрек",
-            "url": "https://www.mauthor.com/present/5862802618712064"
-          },
-          {
-            "title": "5.11 Жүрек-қантамырлар жүйесі аурулары",
-            "url": " https://www.mauthor.com/present/5807776907001856"
-          },
-          {
-            "title": "5.2 Қанның қызметі",
-            "url": "https://www.mauthor.com/present/5277205369847808"
-          },
-          {
-            "title": "5.3 Қан жасушалары",
-            "url": " https://www.mauthor.com/present/5288986490306560"
-          },
-          {
-            "title": "5.4 IИммунитет. Гуморальдық және жасушалық иммунитет",
-            "url": " https://www.mauthor.com/present/5319404765708288"
-          },
-          {
-            "title": "5.5 Жұқпалы аурулар",
-            "url": "https://www.mauthor.com/present/5501348505845760"
-          },
-          {
-            "title": "5.6 Иммунитет. Иммунитеттің түрлері",
-            "url": "https://www.mauthor.com/present/6098265208127488"
-          },
-          {
-            "title": "5.7 Қан топтары",
-            "url": "https://www.mauthor.com/present/5730608717889536"
-          },
-          {
-            "title": "5.8 Жүрек және қан тамырлары",
-            "url": "https://www.mauthor.com/present/5847062326935552"
-          },
-          {
-            "title": "5.9 Қанайналым жүйелерінің түрлері",
-            "url": "https://www.mauthor.com/present/6394393472401408"
-          }
-        ]
-      },
-      {
-        "title": "Тыныс алу",
-        "topics": [
-          {
-            "title": "6.1 Газ алмасу",
-            "url": "https://www.mauthor.com/present/5445683447988224"
-          },
-          {
-            "title": "6.2 Тыныс алу",
-            "url": "https://www.mauthor.com/present/4725185369997312"
-          },
-          {
-            "title": "6.3 Өкпенің тіршілік сыйымдылығы",
-            "url": "https://www.mauthor.com/present/5148911634874368"
-          }
-        ]
-      },
-      {
-        "title": "Бөліп шығару",
-        "topics": [
-          {
-            "title": "7.1 Зәр шығару жүйесі",
-            "url": "https://www.mauthor.com/present/6259919589867520"
-          },
-          {
-            "title": "7.2 Тері",
-            "url": "https://www.mauthor.com/present/5504709812682752"
-          },
-          {
-            "title": "7.3 Тері аурулары",
-            "url": "https://www.mauthor.com/present/5795795290423296"
-          }
-        ]
-      },
-      {
-        "title": "Қозғалыс. Биофизика ",
-        "topics": [
-          {
-            "title": "8.1 Тірек-қимыл жүйесі",
-            "url": "https://www.mauthor.com/present/5983017880911872"
-          },
-          {
-            "title": "8.2 Сүйектің құрылысы",
-            "url": "https://www.mauthor.com/present/5444439744577536"
-          },
-          {
-            "title": "8.3 Сүйектің байланыс түрлері",
-            "url": "https://www.mauthor.com/present/5959977998614528"
-          },
-          {
-            "title": "8.4 Қозғалмалы буындар",
-            "url": "https://www.mauthor.com/present/5905815172677632"
-          },
-          {
-            "title": "8.5 Бұлшықет ұлпасының түрлері",
-            "url": " https://www.mauthor.com/present/6111864240603136"
-          },
-          {
-            "title": "8.6 Гиподинамия",
-            "url": "https://www.mauthor.com/present/4576109940834304"
-          },
-          {
-            "title": "8.7 Қозғалыстың биомеханикасы",
-            "url": "https://www.mauthor.com/present/6080255739166720"
-          }
-        ]
-      },
-      {
-        "title": "Координация және реттелу",
-        "topics": [
-          {
-            "title": "9.1 Көздің құрылысы",
-            "url": "https://www.mauthor.com/present/5781019151695872"
-          },
-          {
-            "title": "9.2 Есту мүшесінің құрылысы",
-            "url": " https://www.mauthor.com/present/5398195940753408"
-          },
-          {
-            "title": "9.3 Рецепторлар",
-            "url": "https://www.mauthor.com/present/6114799154495488"
-          },
-          {
-            "title": "9.4 Эндокринді бездер",
-            "url": "https://www.mauthor.com/present/6220933836177408"
-          },
-          {
-            "title": "9.5 Эндокриндік жүйенің аурулары",
-            "url": "https://www.mauthor.com/present/6484794774519808"
-          },
-          {
-            "title": "9.6 Тері рецепторлары",
-            "url": "https://www.mauthor.com/present/4747285057110016"
-          },
-          {
-            "title": "9.7 Терморегуляция",
-            "url": "https://www.mauthor.com/present/6159939260776448"
-          }
-        ]
-      },
-      {
-        "title": "Көбею ",
-        "topics": [
-          {
-            "title": "10.1 Жасушаның бөліну түрлері",
-            "url": "https://www.mauthor.com/present/5929685149679616"
-          },
-          {
-            "title": "10.2 Жануарлардың көбею формалары",
-            "url": "https://www.mauthor.com/present/5094086243123200"
-          },
-          {
-            "title": "10.3 Мүктер мен қырықжапырақтардың тіршілік циклі",
-            "url": "https://www.mauthor.com/present/6676809072115712"
-          },
-          {
-            "title": "10.4 Ашықтұқымды және жабықтұқымды өсімдіктердің тіршілік циклі",
-            "url": "https://www.mauthor.com/present/5793294277279744"
-          }
-        ]
-      },
-      {
-        "title": "Өсу және даму ",
-        "topics": [
-          {
-            "title": "11.1 Эмбрионалдық даму",
-            "url": " https://www.mauthor.com/present/5786256730095616"
-          }
-        ]
-      },
-      {
-        "title": "Тұқым қуалаушылық пен өзгергіштік заңдылықтары",
-        "topics": [
-          {
-            "title": "12.1 Тұқым қуалаушылық пен өзгергіштіктің эволюциядағы маңызы",
-            "url": "https://www.mauthor.com/present/6352699540504576"
-          },
-          {
-            "title": "12.2 Қолдан сұрыптау",
-            "url": "https://www.mauthor.com/present/5435066288832512"
-          },
-          {
-            "title": "12.3 Мәдени өсімдіктер мен үй жануарларының шығу орталықтары",
-            "url": "https://www.mauthor.com/present/6168535503601664"
-          },
-          {
-            "title": "12.4 Қазақстанда кездесетін дақылдар мен үй жануарлары",
-            "url": "https://www.mauthor.com/present/6507477008515072"
-          }
-        ]
-      },
-      {
-        "title": "Биосфера, экожүйе, популяция ",
-        "topics": [
-          {
-            "title": "13.1 Экожүйе",
-            "url": "https://www.mauthor.com/present/4808215879090176"
-          },
-          {
-            "title": "13.2 Популяция",
-            "url": " https://www.mauthor.com/present/6689538013003776"
-          },
-          {
-            "title": "13.3 Тірі ағзалардың өзара қарым-қатынас түрлері",
-            "url": " https://www.mauthor.com/present/5659213182926848"
-          }
-        ]
-      },
-      {
-        "title": "Адам қызметінің қоршаған ортаға әсері",
-        "topics": [
-          {
-            "title": "14.1 Биологиялық алуан түрлілікті сақта",
-            "url": "https://www.mauthor.com/present/5726422978658304"
-          },
-          {
-            "title": "14.2 Қазақстан Республикасының экологиялық проблемалары",
-            "url": " https://www.mauthor.com/present/4538407912603648"
-          }
-        ]
-      }
+        {
+            "title": "Жасушалық биология  ",
+            "topics": [
+                {
+                    "title": "1.1 Жасушаның құрылысы және түрлері",
+                    "url": "https://www.mauthor.com/present/6646610595020800"
+                },
+                {
+                    "title": "1.2 Өсімдік және жануар ұлпалары",
+                    "url": "https://www.mauthor.com/present/5546056833695744"
+                },
+                {
+                    "title": "Тарау тапсырмалары 1.0 Жасушалық биология ",
+                    "url": "https://www.mauthor.com/present/5456530748604416"
+                }
+            ]
+        },
+        {
+            "title": "Молекулалық биология    ",
+            "topics": [
+                {
+                    "title": "2.1 Мономерлер және полимерлер",
+                    "url": " https://www.mauthor.com/present/5298073676414976"
+                },
+                {
+                    "title": "2.2 Көмірсулар мен липидтер",
+                    "url": "https://www.mauthor.com/present/4806446352564224"
+                },
+                {
+                    "title": "2.3 Нәруыздар",
+                    "url": "https://www.mauthor.com/present/5891181573177344"
+                },
+                {
+                    "title": "Тарау тапсырмалары 2.0 Молекулалық биология ",
+                    "url": "https://www.mauthor.com/present/6610385792270336"
+                }
+            ]
+        },
+        {
+            "title": "Тірі ағзалардың көп түрлілігі   ",
+            "topics": [
+                {
+                    "title": "3.1 Өсімдіктердің көп түрлілігі",
+                    "url": "https://www.mauthor.com/present/5743550771363840"
+                },
+                {
+                    "title": "3.2 Саңырауқұлақтар патшалығы",
+                    "url": "https://www.mauthor.com/present/6084936137834496"
+                },
+                {
+                    "title": "3.3 Дара жарнақты және қосжарнақтылар өсімдіктер",
+                    "url": "https://www.mauthor.com/present/5253804777406464"
+                },
+                {
+                    "title": "3.4 Буынаяқтылар мен хордалылар",
+                    "url": "https://www.mauthor.com/present/4745391110750208"
+                },
+                {
+                    "title": "Тарау тапсырмалары 3.0 Тірі ағзалардың көп түрлілігі ",
+                    "url": "https://www.mauthor.com/present/6193225416704000"
+                }
+            ]
+        },
+        {
+            "title": "Қоректену   ",
+            "topics": [
+                {
+                    "title": "4.1 Асқорыту жүйесі",
+                    "url": " https://www.mauthor.com/present/4536583247757312"
+                },
+                {
+                    "title": "4.2 Тістің құрылысы мен қызметі және тіс гигиенасы",
+                    "url": "https://www.mauthor.com/present/4587216055173120"
+                },
+                {
+                    "title": "4.3 Асқорыту мүшелері",
+                    "url": "https://www.mauthor.com/present/5490128398712832"
+                },
+                {
+                    "title": "4.4 Асқорыту мүшелері ауруларының алдын алу",
+                    "url": "https://www.mauthor.com/present/5520626466553856"
+                },
+                {
+                    "title": "4.5 Дәрумендер",
+                    "url": "https://www.mauthor.com/present/4883831194255360"
+                },
+                {
+                    "title": "Тарау тапсырмалары 4.0 Қоректену ",
+                    "url": "https://www.mauthor.com/present/6348541366239232"
+                }
+            ]
+        },
+        {
+            "title": "Заттардың тасымалдануы  ",
+            "topics": [
+                {
+                    "title": "5.1 Лимфа жүйесі",
+                    "url": "https://www.mauthor.com/present/5927783393525760"
+                },
+                {
+                    "title": "5.10 Дене жаттығулары және жүрек",
+                    "url": "https://www.mauthor.com/present/5862802618712064"
+                },
+                {
+                    "title": "5.11 Жүрек-қантамырлар жүйесі аурулары",
+                    "url": " https://www.mauthor.com/present/5807776907001856"
+                },
+                {
+                    "title": "5.2 Қанның қызметі",
+                    "url": "https://www.mauthor.com/present/5277205369847808"
+                },
+                {
+                    "title": "5.3 Қан жасушалары",
+                    "url": " https://www.mauthor.com/present/5288986490306560"
+                },
+                {
+                    "title": "5.4 Иммунитет. Гуморальдық және жасушалық иммунитет",
+                    "url": " https://www.mauthor.com/present/5319404765708288"
+                },
+                {
+                    "title": "5.5 Жұқпалы аурулар",
+                    "url": "https://www.mauthor.com/present/5501348505845760"
+                },
+                {
+                    "title": "5.6 Иммунитет. Иммунитеттің түрлері",
+                    "url": "https://www.mauthor.com/present/6098265208127488"
+                },
+                {
+                    "title": "5.7 Қан топтары",
+                    "url": "https://www.mauthor.com/present/5730608717889536"
+                },
+                {
+                    "title": "5.8 Жүрек және қан тамырлары",
+                    "url": "https://www.mauthor.com/present/5847062326935552"
+                },
+                {
+                    "title": "5.9 Қанайналым жүйелерінің түрлері",
+                    "url": "https://www.mauthor.com/present/6394393472401408"
+                },
+                {
+                    "title": "Тарау тапсырмалары 5.0 Заттардың тасымалдануы",
+                    "url": "https://www.mauthor.com/present/5271203312435200"
+                }
+            ]
+        },
+        {
+            "title": "Тыныс алу   ",
+            "topics": [
+                {
+                    "title": "6.1 Газ алмасу",
+                    "url": "https://www.mauthor.com/present/5445683447988224"
+                },
+                {
+                    "title": "6.2 Тыныс алу",
+                    "url": "https://www.mauthor.com/present/4725185369997312"
+                },
+                {
+                    "title": "6.3 Өкпенің тіршілік сыйымдылығы",
+                    "url": "https://www.mauthor.com/present/5148911634874368"
+                },
+                {
+                    "title": "Тарау тапсырмалары 6.0 Тыныс алу",
+                    "url": " https://www.mauthor.com/present/5904796552396800"
+                }
+            ]
+        },
+        {
+            "title": "Бөліп шығару    ",
+            "topics": [
+                {
+                    "title": "7.1 Зәр шығару жүйесі",
+                    "url": "https://www.mauthor.com/present/6259919589867520"
+                },
+                {
+                    "title": "7.2 Тері",
+                    "url": "https://www.mauthor.com/present/5504709812682752"
+                },
+                {
+                    "title": "7.3 Тері аурулары",
+                    "url": "https://www.mauthor.com/present/5795795290423296"
+                },
+                {
+                    "title": "Тарау тапсырмалары 7.0 Бөліп шығару",
+                    "url": "https://www.mauthor.com/present/6602208241647616"
+                }
+            ]
+        },
+        {
+            "title": "Қозғалыс. Биофизика ",
+            "topics": [
+                {
+                    "title": "8.1 Тірек-қимыл жүйесі",
+                    "url": "https://www.mauthor.com/present/5983017880911872"
+                },
+                {
+                    "title": "8.2 Сүйектің құрылысы",
+                    "url": "https://www.mauthor.com/present/5444439744577536"
+                },
+                {
+                    "title": "8.3 Сүйектің байланыс түрлері",
+                    "url": "https://www.mauthor.com/present/5959977998614528"
+                },
+                {
+                    "title": "8.4 Қозғалмалы буындар",
+                    "url": "https://www.mauthor.com/present/5905815172677632"
+                },
+                {
+                    "title": "8.5 Бұлшықет ұлпасының түрлері",
+                    "url": " https://www.mauthor.com/present/6111864240603136"
+                },
+                {
+                    "title": "8.6 Гиподинамия",
+                    "url": "https://www.mauthor.com/present/4576109940834304"
+                },
+                {
+                    "title": "8.7 Қозғалыстың биомеханикасы",
+                    "url": "https://www.mauthor.com/present/6080255739166720"
+                },
+                {
+                    "title": "Тарау тапсырмалары 8.0 Қозғалыс. Биофизика ",
+                    "url": " https://www.mauthor.com/present/5429828534272000"
+                }
+            ]
+        },
+        {
+            "title": "Координация және реттелу    ",
+            "topics": [
+                {
+                    "title": "9.1 Көздің құрылысы",
+                    "url": "https://www.mauthor.com/present/5781019151695872"
+                },
+                {
+                    "title": "9.2 Есту мүшесінің құрылысы",
+                    "url": " https://www.mauthor.com/present/5398195940753408"
+                },
+                {
+                    "title": "9.3 Рецепторлар",
+                    "url": "https://www.mauthor.com/present/6114799154495488"
+                },
+                {
+                    "title": "9.4 Эндокринді бездер",
+                    "url": "https://www.mauthor.com/present/6220933836177408"
+                },
+                {
+                    "title": "9.5 Эндокриндік жүйенің аурулары",
+                    "url": "https://www.mauthor.com/present/6484794774519808"
+                },
+                {
+                    "title": "9.6 Тері рецепторлары",
+                    "url": "https://www.mauthor.com/present/4747285057110016"
+                },
+                {
+                    "title": "9.7 Терморегуляция",
+                    "url": "https://www.mauthor.com/present/6159939260776448"
+                },
+                {
+                    "title": "Тарау тапсырмалары 9.0 Координация және реттелу",
+                    "url": "https://www.mauthor.com/present/4573448831107072"
+                }
+            ]
+        },
+        {
+            "title": "Көбею   ",
+            "topics": [
+                {
+                    "title": "10.1 Жасушаның бөліну түрлері",
+                    "url": "https://www.mauthor.com/present/5929685149679616"
+                },
+                {
+                    "title": "10.2 Жануарлардың көбею формалары",
+                    "url": "https://www.mauthor.com/present/5094086243123200"
+                },
+                {
+                    "title": "10.3 Мүктер мен қырықжапырақтардың тіршілік циклі",
+                    "url": "https://www.mauthor.com/present/6676809072115712"
+                },
+                {
+                    "title": "10.4 Ашықтұқымды және жабықтұқымды өсімдіктердің тіршілік циклі",
+                    "url": "https://www.mauthor.com/present/5793294277279744"
+                },
+                {
+                    "title": "Тарау тапсырмалары 10.0 Көбею ",
+                    "url": "https://www.mauthor.com/present/6217057854685184"
+                }
+            ]
+        },
+        {
+            "title": "Өсу және даму   ",
+            "topics": [
+                {
+                    "title": "11.1 Эмбрионалдық даму",
+                    "url": " https://www.mauthor.com/present/5786256730095616"
+                },
+                {
+                    "title": "Тарау тапсырмалары 11.0 Өсу және даму ",
+                    "url": "https://www.mauthor.com/present/5537480077606912"
+                }
+            ]
+        },
+        {
+            "title": "Тұқым қуалаушылық пен өзгергіштік заңдылықтары  ",
+            "topics": [
+                {
+                    "title": "12.1 Тұқым қуалаушылық пен өзгергіштіктің эволюциядағы маңызы",
+                    "url": "https://www.mauthor.com/present/6352699540504576"
+                },
+                {
+                    "title": "12.2 Қолдан сұрыптау",
+                    "url": "https://www.mauthor.com/present/5435066288832512"
+                },
+                {
+                    "title": "12.3 Мәдени өсімдіктер мен үй жануарларының шығу орталықтары",
+                    "url": "https://www.mauthor.com/present/6168535503601664"
+                },
+                {
+                    "title": "12.4 Қазақстанда кездесетін дақылдар мен үй жануарлары",
+                    "url": "https://www.mauthor.com/present/6507477008515072"
+                },
+                {
+                    "title": "Тарау тапсырмалары 12.0 Тұқым қуалаушылық пен өзгергіштік заңдылықтары",
+                    "url": "https://www.mauthor.com/present/5658175075909632"
+                }
+            ]
+        },
+        {
+            "title": "Биосфера, экожүйе, популяция    ",
+            "topics": [
+                {
+                    "title": "13.1 Экожүйе",
+                    "url": "https://www.mauthor.com/present/4808215879090176"
+                },
+                {
+                    "title": "13.2 Популяция",
+                    "url": " https://www.mauthor.com/present/6689538013003776"
+                },
+                {
+                    "title": "13.3 Тірі ағзалардың өзара қарым-қатынас түрлері",
+                    "url": " https://www.mauthor.com/present/5659213182926848"
+                },
+                {
+                    "title": "Тарау тапсырмалары 13.0 Биосфера, экожүйе, популяция ",
+                    "url": "https://www.mauthor.com/present/5867458858188800"
+                }
+            ]
+        },
+        {
+            "title": "Адам қызметінің қоршаған ортаға әсері   ",
+            "topics": [
+                {
+                    "title": "14.1 Биологиялық алуан түрлілікті сақта",
+                    "url": "https://www.mauthor.com/present/5726422978658304"
+                },
+                {
+                    "title": "14.2 Қазақстан Республикасының экологиялық проблемалары",
+                    "url": " https://www.mauthor.com/present/4538407912603648"
+                },
+                {
+                    "title": "Тарау тапсырмалары 14.0 Адам қызметінің қоршаған ортаға әсері",
+                    "url": "https://www.mauthor.com/present/5030091742117888"
+                }
+            ]
+        }
     ]
-  }
+}
