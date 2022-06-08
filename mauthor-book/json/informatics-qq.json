@@ -6,83 +6,81 @@
             "topics": [
                 {
                     "title": "1.1 Ақпараттарды өлшеу",
-                    "url": "https://www.mauthor.com/present/6138694364430336"
+                    "url": "https://www.mauthor.com/present/5466895041560576"
                 },
                 {
                     "title": "1.2 Ақпаратты кодтау",
-                    "url": "https://www.mauthor.com/present/6263544768757760"
+                    "url": "https://www.mauthor.com/present/5518067429408768"
                 },
                 {
                     "title": "1.3 Процессор және оның сипаттамасы",
-                    "url": "https://www.mauthor.com/present/4900816984604672"
+                    "url": "https://www.mauthor.com/present/5769145957875712"
                 },
                 {
                     "title": "1.4 Компьютерлік желілер",
-                    "url": "https://www.mauthor.com/present/4816399939272704"
+                    "url": "https://www.mauthor.com/present/4900181891481600"
                 },
                 {
                     "title": "1.5 Желінің өткізу қабілеті",
-                    "url": "https://www.mauthor.com/present/4506646788833280"
+                    "url": "https://www.mauthor.com/present/4640540850782208"
                 },
                 {
                     "title": "Check yourself",
-                    "url": "https://www.mauthor.com/present/5339327466438656"
+                    "url": "https://www.mauthor.com/present/6036561652744192"
                 }
-
             ]
         },
         {
             "title": "2-ТАРАУ ДЕНСАУЛЫҚ ЖӘНЕ ҚАУІПСІЗДІК",
             "topics": [
                 {
-                    "title": "2.1 Компьютерді пайдаланудың теріс аспектілері 20",
-                    "url": "https://www.mauthor.com/present/5162108190326784"
-                }
-                ,
+                    "title": "2.1 Компьютерді пайдаланудың теріс аспектілері",
+                    "url": "https://www.mauthor.com/present/6377880287838208"
+                },
+                {
+                    "title": "2.2 Желідегі қауіпсіздік",
+                    "url": "https://www.mauthor.com/present/6029844994981888"
+                },
                 {
                     "title": "Check yourself",
-                    "url": "https://www.mauthor.com/present/4715636542013440"
+                    "url": "https://www.mauthor.com/present/4646387953827840"
                 }
             ]
-        },
-        {
-            "title": "2.2 Желідегі қауіпсіздік 22",
-            "topics": []
         },
         {
             "title": "3-ТАРАУ ЭЛЕКТРОНДЫҚ КЕСТЕЛЕРДЕГІ АҚПАРАТТЫ ӨҢДЕУ",
             "topics": [
                 {
                     "title": "3.1 Статистикалық мәліметтер",
-                    "url": "https://www.mauthor.com/present/6295712102481920"
+                    "url": "https://www.mauthor.com/present/6282838676209664"
                 },
                 {
                     "title": "3.2 Кірістірілген функция",
-                    "url": "https://www.mauthor.com/present/5294919517863936"
+                    "url": "https://www.mauthor.com/present/5755086676033536"
                 },
                 {
                     "title": "3.3 Есеп шығаруда кіріктірілген функцияларды қолдану",
-                    "url": "https://www.mauthor.com/present/4904965319032832"
+                    "url": "https://www.mauthor.com/present/5545978945470464"
                 },
                 {
                     "title": "3.4 Қолда бар ақпаратқа негізделген деректерді талдау",
-                    "url": "https://www.mauthor.com/present/5538397187342336"
+                    "url": "https://www.mauthor.com/present/4567595126226944"
                 },
                 {
                     "title": "3.5 Деректерді талдау. Практикум",
-                    "url": "https://www.mauthor.com/present/6730342752452608"
+                    "url": "https://www.mauthor.com/present/6437802530701312"
                 },
                 {
                     "title": "3.6 Электрондық кестелер арқылы қолданбалы есептерді шығару.",
-                    "url": "https://www.mauthor.com/present/5042484224327680"
+                    "url": "https://www.mauthor.com/present/6275999637045248"
                 },
                 {
                     "title": "3.7 Электрондық кестелер арқылы қолданбалы есептерді шығару. II бөлім",
-                    "url": "https://www.mauthor.com/present/5191377587142656"
+                    "url": "https://www.mauthor.com/present/4693751536156672"
                 },
                 {
                     "title": "Check yourself",
-                    "url": "https://www.mauthor.com/present/5746926909259776"
+                    "url": "https://www.mauthor.com/present/4972246317268992"
                 }
             ]
         },
@@ -91,43 +89,43 @@
             "topics": [
                 {
                     "title": "4.1 While циклы",
-                    "url": "https://www.mauthor.com/present/6459748270080000"
+                    "url": "https://www.mauthor.com/present/5311902623858688"
                 },
                 {
                     "title": "4.2 Есеп шығару: while циклы",
-                    "url": "https://www.mauthor.com/present/5217077505425408"
+                    "url": "https://www.mauthor.com/present/5571482729709568"
                 },
                 {
                     "title": "4.3 For циклы",
-                    "url": "https://www.mauthor.com/present/5735806274240512"
+                    "url": "https://www.mauthor.com/present/4822792352169984"
                 },
                 {
                     "title": "4.4 Есеп шығару: for циклы",
-                    "url": "https://www.mauthor.com/present/4744960297009152"
+                    "url": "https://www.mauthor.com/present/5819651442999296"
                 },
                 {
                     "title": "4.5 Циклды басқару операторлары: break, continue",
-                    "url": "https://www.mauthor.com/present/6305823084642304"
+                    "url": "https://www.mauthor.com/present/5338847545786368"
                 },
                 {
                     "title": "4.6 Циклды басқару операторлары: else",
-                    "url": "https://www.mauthor.com/present/4699712145457152"
+                    "url": "https://www.mauthor.com/present/5692374893854720"
                 },
                 {
                     "title": "4.7 Циклды басқару операторлары. Практикум",
-                    "url": "https://www.mauthor.com/present/4807079214317568"
+                    "url": "https://www.mauthor.com/present/4779859255099392"
                 },
                 {
                     "title": "4.8 Есеп шығару: Python-дағы циклдар",
-                    "url": "https://www.mauthor.com/present/4737466896089088"
+                    "url": "https://www.mauthor.com/present/4649145616433152"
                 },
                 {
                     "title": "4.9 Алгоритмнің трассировкасы",
-                    "url": "https://www.mauthor.com/present/5052373386526720"
+                    "url": "https://www.mauthor.com/present/5019558200606720"
                 },
                 {
                     "title": "Check yourself",
-                    "url": "https://www.mauthor.com/present/5260868924866560"
+                    "url": "https://www.mauthor.com/present/4682054863814656"
                 }
             ]
         },
@@ -136,15 +134,35 @@
             "topics": [
                 {
                     "title": "5.1 Мәселені қалыптастыру",
-                    "url": "https://www.mauthor.com/present/4616613923520512"
+                    "url": "https://www.mauthor.com/present/6744558557331456"
                 },
                 {
                     "title": "5.2 Алгоритмді әзірлеу",
-                    "url": "https://www.mauthor.com/present/5138398226022400"
+                    "url": "https://www.mauthor.com/present/4888312615141376"
+                },
+                {
+                    "title": "5.3 Алгоритмді әзірлеу. “Аққала” ойыны. I бөлім",
+                    "url": "https://www.mauthor.com/present/6198391859707904"
+                },
+                {
+                    "title": "5.4 Алгоритмді программалау. “Аққала” ойыны. II бөлім",
+                    "url": "https://www.mauthor.com/present/6370205491658752"
+                },
+                {
+                    "title": "5.5 Алгоритмді программалау. “Аққала” ойыны. III бөлім",
+                    "url": "https://www.mauthor.com/present/6183286526836736"
+                },
+                {
+                    "title": "5.6 Алгоритмді программалау. “Аққала” ойыны. IV бөлім",
+                    "url": "https://www.mauthor.com/present/6176163793338368"
+                },
+                {
+                    "title": "5.7 Программаны тестілеу және қосымша тапсырмалар",
+                    "url": "https://www.mauthor.com/present/6292799938494464"
                 },
                 {
                     "title": "Check yourself",
-                    "url": "https://www.mauthor.com/present/6010001440768000"
+                    "url": "https://www.mauthor.com/present/6750562653175808"
                 }
             ]
         }
