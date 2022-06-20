@@ -1,0 +1,260 @@
+{
+    "title": "Physics qq",
+    "chapters": [
+        {
+            "title": "CHAPTER 1 HEAT PHENOMENA",
+            "topics": [
+                {
+                    "title": "1.1 Motion of atoms and molecules",
+                    "url": "https://www.mauthor.com/present/4904796808675328"
+                },
+                {
+                    "title": "1.2 Temperature and internal energy",
+                    "url": "https://www.mauthor.com/present/5048269318782976"
+                },
+                {
+                    "title": "1.3 Heat transfer",
+                    "url": "https://www.mauthor.com/present/5433546675716096"
+                },
+                {
+                    "title": "1.4 Application of heat transfer",
+                    "url": "https://www.mauthor.com/present/5956944476635136"
+                },
+                {
+                    "title": "1.5 Specific heat capacity",
+                    "url": "https://www.mauthor.com/present/6606844163915776"
+                },
+                {
+                    "title": "1.6 Heat of combustion",
+                    "url": "https://www.mauthor.com/present/6473852917514240"
+                },
+                {
+                    "title": "1.7 Heat exchange",
+                    "url": "https://www.mauthor.com/present/4546466638594048"
+                },
+                {
+                    "title": "LAB WORK 1. Conservation of energy in heat transfer",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "title": "CHAPTER 2. STATES OF MATTER",
+            "topics": [
+                {
+                    "title": "2.1 Melting and freezing",
+                    "url": "https://www.mauthor.com/present/5109046461464576"
+                },
+                {
+                    "title": "2.2 Evaporation and condensation",
+                    "url": "https://www.mauthor.com/present/6284077572947968"
+                },
+                {
+                    "title": "2.3 Graphical analysis",
+                    "url": "https://www.mauthor.com/present/6073656723243008"
+                },
+                {
+                    "title": "2.4 Humidity",
+                    "url": "https://www.mauthor.com/present/4858797977370624"
+                },
+                {
+                    "title": "LAB WORK 2. Latent heat of fusion",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "title": "CHAPTER 3. THERMODYNAMICS",
+            "topics": [
+                {
+                    "title": "3.1 First law of thermodynamics",
+                    "url": "https://www.mauthor.com/present/6309720004100096"
+                },
+                {
+                    "title": "3.2 Second law of thermodynamics",
+                    "url": "https://www.mauthor.com/present/5746044268314624"
+                },
+                {
+                    "title": "3.3 Heat engines",
+                    "url": "https://www.mauthor.com/present/5513884374532096"
+                },
+                {
+                    "title": "3.4 Efficiency of heat engine",
+                    "url": "https://www.mauthor.com/present/5134731976507392"
+                },
+                {
+                    "title": "3.5 Ecology and energy",
+                    "url": "https://www.mauthor.com/present/6637998405451776"
+                }
+            ]
+        },
+        {
+            "title": "CHAPTER 4. ELECTROSTATICS",
+            "topics": [
+                {
+                    "title": "4.1 Electric charge",
+                    "url": "https://www.mauthor.com/present/5359880671723520"
+                },
+                {
+                    "title": "4.2 Charging methods",
+                    "url": "https://www.mauthor.com/present/6372244888092672"
+                },
+                {
+                    "title": "4.3 Conservation of charge. Coulomb's law",
+                    "url": "https://www.mauthor.com/present/5869004081725440"
+                },
+                {
+                    "title": "4.4 Electric field. Part 1",
+                    "url": "https://www.mauthor.com/present/5594750312382464"
+                },
+                {
+                    "title": "4.5 Electric field. Part 2",
+                    "url": "https://www.mauthor.com/present/5564434285723648"
+                },
+                {
+                    "title": "4.6 Electric potential. Potential difference",
+                    "url": "https://www.mauthor.com/present/5765069387988992"
+                },
+                {
+                    "title": "4.7 Capacitance and Capacitors",
+                    "url": "https://www.mauthor.com/present/6097657159876608"
+                }
+            ]
+        },
+        {
+            "title": "CHAPTER 5. ELECTRIC CURRENT",
+            "topics": [
+                {
+                    "title": "5.1 Electric current",
+                    "url": "https://www.mauthor.com/present/5613568711589888"
+                },
+                {
+                    "title": "5.2 Electric circuit. Voltage",
+                    "url": "https://www.mauthor.com/present/5857067587469312"
+                },
+                {
+                    "title": "5.3 Electrical resistance",
+                    "url": "https://www.mauthor.com/present/5136926394417152"
+                },
+                {
+                    "title": "5.4 Resistivity",
+                    "url": "https://www.mauthor.com/present/5800949251178496"
+                },
+                {
+                    "title": "5.5 Parallel and series connections of resistors",
+                    "url": "https://www.mauthor.com/present/6346295006068736"
+                },
+                {
+                    "title": "5.6 Electrical energy and power",
+                    "url": "https://www.mauthor.com/present/4746873973374976"
+                },
+                {
+                    "title": "5.7 Short circut",
+                    "url": "https://www.mauthor.com/present/5516453595447296"
+                },
+                {
+                    "title": "5.8 Electric current in liquids and gases",
+                    "url": "https://www.mauthor.com/present/5519097323978752"
+                },
+                {
+                    "title": "LAB WORK 3. Electric current and voltage",
+                    "url": ""
+                },
+                {
+                    "title": "LAB WORK 4. Current-voltage relationship (or I-V curve)",
+                    "url": ""
+                },
+                {
+                    "title": "LAB WORK 5. Series connection of resistors",
+                    "url": ""
+                },
+                {
+                    "title": "LAB WORK 6.Parallel connection of resistors",
+                    "url": ""
+                },
+                {
+                    "title": "LAB WORK 7. Power and work of current",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "title": "CHAPTER 6. ELECTROMAGNETISM",
+            "topics": [
+                {
+                    "title": "6.1 Magnetic field",
+                    "url": "https://www.mauthor.com/present/5494697170173952"
+                },
+                {
+                    "title": "6.2 Magnetic field in nature",
+                    "url": "https://www.mauthor.com/present/6560591820488704"
+                },
+                {
+                    "title": "6.3 Electric motors",
+                    "url": "https://www.mauthor.com/present/5610328292982784"
+                },
+                {
+                    "title": "6.4 Electricity production",
+                    "url": "https://www.mauthor.com/present/6672574100144128"
+                },
+                {
+                    "title": "LAB WORK 8. Magnetic field",
+                    "url": ""
+                },
+                {
+                    "title": "LAB WORK 9. Electromagnet and permanent magnet",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "title": "CHAPTER 7. OPTICS",
+            "topics": [
+                {
+                    "title": "7.1 Lunar and solar eclipse",
+                    "url": "https://www.mauthor.com/present/5505334260662272"
+                },
+                {
+                    "title": "7.2 Reflection",
+                    "url": "https://www.mauthor.com/present/4677658335641600"
+                },
+                {
+                    "title": "7.3 Concave mirror",
+                    "url": "https://www.mauthor.com/present/6695035571142656"
+                },
+                {
+                    "title": "7.4 Convex mirror",
+                    "url": "https://www.mauthor.com/present/5900353115127808"
+                },
+                {
+                    "title": "7.5 Refraction",
+                    "url": "https://www.mauthor.com/present/5284879536881664"
+                },
+                {
+                    "title": "7.6 Total internal refl ection",
+                    "url": "https://www.mauthor.com/present/6698659986669568"
+                },
+                {
+                    "title": "7.7 Converging lens",
+                    "url": "https://www.mauthor.com/present/4602454355869696"
+                },
+                {
+                    "title": "7.8 Diverging lens",
+                    "url": "https://www.mauthor.com/present/4967750023380992"
+                },
+                {
+                    "title": "7.9 Human eye and optical devices",
+                    "url": "https://www.mauthor.com/present/4845074885771264"
+                },
+                {
+                    "title": "LAB WORK 10. Index of refraction",
+                    "url": ""
+                },
+                {
+                    "title": "LAB WORK 11. Optical power of lens",
+                    "url": ""
+                }
+            ]
+        }
+    ]
+}

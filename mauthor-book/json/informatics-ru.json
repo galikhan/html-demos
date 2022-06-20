@@ -1,0 +1,170 @@
+{
+    "title": "",
+    "chapters": [
+        {
+            "title": "РАЗДЕЛ 1 ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ КОМПЬЮТЕРА И СЕТЕЙ",
+            "topics": [
+                {
+                    "title": "1.1 Измерение информации",
+                    "url": "https://www.mauthor.com/present/5208572421603328"
+                },
+                {
+                    "title": "1.2 Кодирование информации",
+                    "url": "https://www.mauthor.com/present/4547566452211712"
+                },
+                {
+                    "title": "1.3 Процессор и его характеристики",
+                    "url": "https://www.mauthor.com/present/5826339243950080"
+                },
+                {
+                    "title": "1.4 Компьютерные сети",
+                    "url": "https://www.mauthor.com/present/6186840746491904"
+                },
+                {
+                    "title": "1.5 Пропускная способность сети",
+                    "url": "https://www.mauthor.com/present/4593150651400192"
+                },
+                {
+                    "title": "Check yourself 1",
+                    "url": "https://www.mauthor.com/present/6403240861761536"
+                }
+            ]
+        },
+        {
+            "title": "РАЗДЕЛ 2    ЗДОРОВЬЕ И БЕЗОПАСНОСТЬ",
+            "topics": [
+                {
+                    "title": "2.1 Негативные аспекты использования компьютера",
+                    "url": "https://www.mauthor.com/present/4929798777995264"
+                },
+                {
+                    "title": "2.2 Безопасность в сети",
+                    "url": "https://www.mauthor.com/present/6310896581869568"
+                },
+                {
+                    "title": "Check yourself 2",
+                    "url": "https://www.mauthor.com/present/5816212315045888"
+                }
+            ]
+        },
+        {
+            "title": "РАЗДЕЛ 3    ОБРАБОТКА ИНФОРМАЦИИ В ЭЛЕКТРОННЫХ ТАБЛИЦАХ",
+            "topics": [
+                {
+                    "title": "3.1 Статистические данные",
+                    "url": "https://www.mauthor.com/present/6090113083375616"
+                },
+                {
+                    "title": "3.2 Встроенные функции",
+                    "url": "https://www.mauthor.com/present/4903521698316288"
+                },
+                {
+                    "title": "3.3 Решение задач: функции и формулы",
+                    "url": "https://www.mauthor.com/present/4710104557027328"
+                },
+                {
+                    "title": "3.4 Анализ данных на основе имеющейся информации",
+                    "url": "https://www.mauthor.com/present/5028623693774848"
+                },
+                {
+                    "title": "3.5 Анализ данных. Практикум.",
+                    "url": "https://www.mauthor.com/present/5777796248502272"
+                },
+                {
+                    "title": "3.6 Решение прикладных задач с использованием таблиц",
+                    "url": "https://www.mauthor.com/present/6659831905255424"
+                },
+                {
+                    "title": "3.7 Решение прикладных задач с использованием таблиц. Часть II",
+                    "url": "https://www.mauthor.com/present/5654512165060608"
+                },
+                {
+                    "title": "Check yourself 3",
+                    "url": "https://www.mauthor.com/present/4658883414589440"
+                }
+            ]
+        },
+        {
+            "title": "РАЗДЕЛ 4    ПРОГРАММИРОВАНИЕ АЛГОРИТМОВ НА ЯЗЫКЕ PYTHON",
+            "topics": [
+                {
+                    "title": "4.1 Цикл while",
+                    "url": "https://www.mauthor.com/present/5217726137761792"
+                },
+                {
+                    "title": "4.2 Решение задач: цикл while",
+                    "url": "https://www.mauthor.com/present/5671924734230528"
+                },
+                {
+                    "title": "4.3 Цикл for",
+                    "url": "https://www.mauthor.com/present/4714391001497600"
+                },
+                {
+                    "title": "4.4 Решение задач: цикл for",
+                    "url": "https://www.mauthor.com/present/5379196104343552"
+                },
+                {
+                    "title": "4.5 Операторы управления циклом: break, continue",
+                    "url": "https://www.mauthor.com/present/5220096959709184"
+                },
+                {
+                    "title": "4.6 Операторы управления циклом: else",
+                    "url": "https://www.mauthor.com/present/6381265326047232"
+                },
+                {
+                    "title": "4.7 Операторы управления циклом. Практикум",
+                    "url": "https://www.mauthor.com/present/6013786112262144"
+                },
+                {
+                    "title": "4.8 Решение задач: циклы в Python",
+                    "url": "https://www.mauthor.com/present/6099599860826112"
+                },
+                {
+                    "title": "4.9 Трассировка алгоритма",
+                    "url": "https://www.mauthor.com/present/5536649907404800"
+                },
+                {
+                    "title": "Check yourself 4",
+                    "url": "https://www.mauthor.com/present/6119296345964544"
+                }
+            ]
+        },
+        {
+            "title": "РАЗДЕЛ 5    ПРАКТИЧЕСКОЕ ПРОГРАММИРОВАНИЕ",
+            "topics": [
+                {
+                    "title": "5.1 Постановка проблемы",
+                    "url": "https://www.mauthor.com/present/4998715890335744"
+                },
+                {
+                    "title": "5.2 Разработка алгоритма",
+                    "url": "https://www.mauthor.com/present/4741300380893184"
+                },
+                {
+                    "title": "5.3 Разработка алгоритма. Игра «Тающий снеговик» часть I",
+                    "url": "https://www.mauthor.com/present/5967443482247168"
+                },
+                {
+                    "title": "5.4 Программирование алгоритма. Игра «Тающий снеговик» часть II",
+                    "url": "https://www.mauthor.com/present/5044757335769088"
+                },
+                {
+                    "title": "5.5 Программирование алгоритма. Игра «Тающий снеговик» часть III",
+                    "url": "https://www.mauthor.com/present/4932633456410624"
+                },
+                {
+                    "title": "5.6 Программирование алгоритма. Игра «Тающий снеговик» часть IV",
+                    "url": "https://www.mauthor.com/present/4975880824291328"
+                },
+                {
+                    "title": "5.7 Тестирование программы и дополнительные задачи",
+                    "url": "https://www.mauthor.com/present/5062573464092672"
+                },
+                {
+                    "title": "Check yourself 5",
+                    "url": "https://www.mauthor.com/present/5344048440803328"
+                }
+            ]
+        }
+    ]
+}

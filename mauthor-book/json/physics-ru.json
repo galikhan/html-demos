@@ -1,0 +1,216 @@
+{
+    "title": "Physics ru",
+    "chapters": [
+        {
+            "title": "Глава 1. Тепловые явления",
+            "topics": [
+                {
+                    "title": "РУ 1.1 Движение атомов и молекул",
+                    "url": "https://www.mauthor.com/present/6203584542277632"
+                },
+                {
+                    "title": "РУ 1.2 Температура и внутренняя энергия",
+                    "url": "https://www.mauthor.com/present/4627558280331264"
+                },
+                {
+                    "title": "РУ 1.3 Теплопередача",
+                    "url": "https://www.mauthor.com/present/5124922095042560"
+                },
+                {
+                    "title": "Ру 1.4 Применение теплопередачи",
+                    "url": "https://www.mauthor.com/present/5587634625314816"
+                },
+                {
+                    "title": "РУ 1.5 Удельная теплоемкость вещества",
+                    "url": "https://www.mauthor.com/present/6690393248366592"
+                },
+                {
+                    "title": "РУ 1.6 Удельная теплота сгорания топлива",
+                    "url": "https://www.mauthor.com/present/4546277433540608"
+                },
+                {
+                    "title": "РУ 1.7 Теплообмен",
+                    "url": "https://www.mauthor.com/present/5288807980728320"
+                }
+            ]
+        },
+        {
+            "title": "Глава 2. Агрегатные состояния вещества",
+            "topics": [
+                {
+                    "title": "РУ 2.1 Плавление и кристаллизация",
+                    "url": "https://www.mauthor.com/present/5153065111519232"
+                },
+                {
+                    "title": "РУ 2.2 Парообразование и конденсация",
+                    "url": "https://www.mauthor.com/present/5626053443321856"
+                },
+                {
+                    "title": "РУ 2.3 Графический анализ",
+                    "url": "https://www.mauthor.com/present/5912780896600064"
+                },
+                {
+                    "title": "РУ 2.4 Влажность",
+                    "url": "https://www.mauthor.com/present/4561137508679680"
+                }
+            ]
+        },
+        {
+            "title": "Глава 3. Основы термодинамики",
+            "topics": [
+                {
+                    "title": "РУ 3.1 Первый закон термодинамики",
+                    "url": "https://www.mauthor.com/present/4881733664768000"
+                },
+                {
+                    "title": "РУ 3.2 Второй закон термодинамики",
+                    "url": "https://www.mauthor.com/present/4808316903096320"
+                },
+                {
+                    "title": "РУ 3.3 Тепловые двигатели",
+                    "url": "https://www.mauthor.com/present/4567854837530624"
+                },
+                {
+                    "title": "РУ 3.4 Коэффициент полезного действия теплового двигателя",
+                    "url": "https://www.mauthor.com/present/6322963359596544"
+                },
+                {
+                    "title": "РУ 3.5 Экология и энергия",
+                    "url": "https://www.mauthor.com/present/5582318932197376"
+                }
+            ]
+        },
+        {
+            "title": "Глава 4. Основы электростатики",
+            "topics": [
+                {
+                    "title": "РУ 4.1 Электрический заряд",
+                    "url": "https://www.mauthor.com/present/5936738425503744"
+                },
+                {
+                    "title": "РУ 4.2 Способы электризации",
+                    "url": "https://www.mauthor.com/present/6149442452979712"
+                },
+                {
+                    "title": "РУ 4.3 Закон сохранения электрического заряда. Закон Кулона",
+                    "url": "https://www.mauthor.com/present/5481677488521216"
+                },
+                {
+                    "title": "РУ 4.4 Электрическое поле. Часть 1",
+                    "url": "https://www.mauthor.com/present/5238758299009024"
+                },
+                {
+                    "title": "РУ 4.5 Электрическое поле. Часть 2",
+                    "url": "https://www.mauthor.com/present/4810838518661120"
+                },
+                {
+                    "title": "РУ 4.6 Электрический потенциал. Разность потенциалов",
+                    "url": "https://www.mauthor.com/present/5107096504369152"
+                },
+                {
+                    "title": "РУ 4.7 Электроемкость. Конденсатор",
+                    "url": "https://www.mauthor.com/present/6574860683313152"
+                }
+            ]
+        },
+        {
+            "title": "Глава 5. Постоянный электрический ток",
+            "topics": [
+                {
+                    "title": "РУ 5.1 Электрический ток",
+                    "url": "https://www.mauthor.com/present/5012007673266176"
+                },
+                {
+                    "title": "РУ 5.2 Электрическая цепь. Напряжение",
+                    "url": "https://www.mauthor.com/present/5762624184254464"
+                },
+                {
+                    "title": "РУ 5.3 Электрическое сопротивление",
+                    "url": "https://www.mauthor.com/present/4918727535099904"
+                },
+                {
+                    "title": "РУ 5.4 Удельное сопротивление",
+                    "url": "https://www.mauthor.com/present/6044627441942528"
+                },
+                {
+                    "title": "РУ 5.5 Последовательное и параллельное соединение проводников",
+                    "url": "https://www.mauthor.com/present/5699990676176896"
+                },
+                {
+                    "title": "РУ 5.6 Электрическая энергия и мощность",
+                    "url": "https://www.mauthor.com/present/6621689517047808"
+                },
+                {
+                    "title": "РУ 5.7 Короткое замыкание",
+                    "url": "https://www.mauthor.com/present/5392841014116352"
+                },
+                {
+                    "title": "РУ 5.8 Электрический ток в жидкостях",
+                    "url": "https://www.mauthor.com/present/5791784596275200"
+                }
+            ]
+        },
+        {
+            "title": "Глава 6. Электромагнитные явления",
+            "topics": [
+                {
+                    "title": "РУ 6.1 Магнитное поле",
+                    "url": "https://www.mauthor.com/present/6019521101561856"
+                },
+                {
+                    "title": "РУ 6.2 Магнитные явления в природе",
+                    "url": "https://www.mauthor.com/present/4665342516920320"
+                },
+                {
+                    "title": "РУ 6.3 Электродвигатели",
+                    "url": "https://www.mauthor.com/present/6080215834558464"
+                },
+                {
+                    "title": "РУ 6.4 Производства электрической энергии",
+                    "url": "https://www.mauthor.com/present/5655533469696000"
+                }
+            ]
+        },
+        {
+            "title": "Глава 7. Световые явления",
+            "topics": [
+                {
+                    "title": "РУ 7.1 Солнечное затмение и лунное затмение",
+                    "url": "https://www.mauthor.com/present/5215080907669504"
+                },
+                {
+                    "title": "РУ 7.2 Отражение света",
+                    "url": "https://www.mauthor.com/present/5142280876457984"
+                },
+                {
+                    "title": "РУ 7.3 Вогнутое зеркало",
+                    "url": "https://www.mauthor.com/present/6261591028400128"
+                },
+                {
+                    "title": "РУ 7.4 Выпуклое зеркало",
+                    "url": "https://www.mauthor.com/present/5489877210234880"
+                },
+                {
+                    "title": "РУ 7.5 Преломление света",
+                    "url": "https://www.mauthor.com/present/5332886936485888"
+                },
+                {
+                    "title": "РУ 7.6 Полное внутреннее отражение",
+                    "url": "https://www.mauthor.com/present/5359580451831808"
+                },
+                {
+                    "title": "РУ 7.7 Собирающая линза",
+                    "url": "https://www.mauthor.com/present/6306174332436480"
+                },
+                {
+                    "title": "РУ 7.8 Рассеивающая линза",
+                    "url": "https://www.mauthor.com/present/4992734745722880"
+                },
+                {
+                    "title": "РУ 7.9 Человеческий глаз и оптические приборы",
+                    "url": "https://www.mauthor.com/present/6685894806994944"
+                }
+            ]
+        }
+    ]
+}
