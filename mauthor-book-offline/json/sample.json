@@ -6,7 +6,7 @@
         "topics": [
           {
             "title": "Review Exercises for 5-7th Grades",
-            "url": "https://www.mauthor.com/present/6413835178737664"
+            "folder": "6413835178737664"
           }
         ]
       },
@@ -15,55 +15,55 @@
         "topics": [
           {
             "title": "1.1.1 Real Numbers",
-            "url": "https://www.mauthor.com/present/4969831899725824"
+            "folder": "4969831899725824"
           },
           {
             "title": "1.1.2 Understanding Square Roots",
-            "url": "https://www.mauthor.com/present/5143172795203584"
+            "folder": "5143172795203584"
           },
           {
             "title": "1.1.3 Properties of Square Roots",
-            "url": "https://www.mauthor.com/present/6029634944237568"
+            "folder": "6029634944237568"
           },
           {
             "title": "1.1.4 Estimating the Value of Square Roots",
-            "url": "https://www.mauthor.com/present/5989214646304768"
+            "folder": "5989214646304768"
           },
           {
             "title": "1.1 Section Review Exercises",
-            "url": "https://www.mauthor.com/present/6439579749580800"
+            "folder": "6439579749580800"
           },
           {
             "title": "1.2.1 Working with Pure and Mixed Radicals",
-            "url": "https://www.mauthor.com/present/6752173802782720"
+            "folder": "6752173802782720"
           },
           {
             "title": "1.2.2 Adding and Subtracting Square Roots",
-            "url": "https://www.mauthor.com/present/6459974158516224"
+            "folder": "6459974158516224"
           },
           {
             "title": "1.2.3 Multiplying Square Roots",
-            "url": "https://www.mauthor.com/present/5852762662895616"
+            "folder": "5852762662895616"
           },
           {
             "title": "1.2.4 Comparing Real Numbers",
-            "url": "https://www.mauthor.com/present/5836665016418304"
+            "folder": "5836665016418304"
           },
           {
             "title": "1.2.5 Rationalizing the denominators",
-            "url": "https://www.mauthor.com/present/6146531849273344"
+            "folder": "6146531849273344"
           },
           {
             "title": "1.2 Section Review Exercises",
-            "url": "https://www.mauthor.com/present/5414452551352320"
+            "folder": "5414452551352320"
           },
           {
             "title": "1.3.1 Function of the form 𝑦=√𝑥",
-            "url": "https://www.mauthor.com/present/5528968568111104"
+            "folder": "5528968568111104"
           },
           {
             "title": "1.3 Section Review Exercises",
-            "url": "https://www.mauthor.com/present/4756005476499456"
+            "folder": "4756005476499456"
           }
         ]
       },
@@ -72,63 +72,63 @@
         "topics": [
           {
             "title": "2.1.1 Quadratic Trinomials",
-            "url": "https://www.mauthor.com/present/5613683400638464"
+            "folder": "5613683400638464"
           },
           {
             "title": "2.1 Section Review Exercises",
-            "url": "https://www.mauthor.com/present/5597358431272960"
+            "folder": "5597358431272960"
           },
           {
             "title": "2.2.1 Quadratic Equation",
-            "url": "https://www.mauthor.com/present/5796760206835712"
+            "folder": "5796760206835712"
           },
           {
             "title": "2.2.2 Solving Quadratic Equation of the form ax²=0, ax²+bx=0 and ax²+c=0",
-            "url": "https://www.mauthor.com/present/6496011954028544"
+            "folder": "6496011954028544"
           },
           {
             "title": "2.2.3 Solving Quadratic Equation by Factoring Method",
-            "url": "https://www.mauthor.com/present/5740074800644096"
+            "folder": "5740074800644096"
           },
           {
             "title": "2.2.4 Solving Quadratic Equations by Completing the Square Method",
-            "url": "https://www.mauthor.com/present/5148895704907776"
+            "folder": "5148895704907776"
           },
           {
             "title": "2.2.5 Solving Quadratic Equations by the Quadratic Formula",
-            "url": "https://www.mauthor.com/present/4521678478114816"
+            "folder": "4521678478114816"
           },
           {
             "title": "2.2.6 Discriminant of Quadratic Equations",
-            "url": "https://www.mauthor.com/present/5280037363908608"
+            "folder": "5280037363908608"
           },
           {
             "title": "2.2.7 Vieta’s theorem",
-            "url": "https://www.mauthor.com/present/5691252724596736"
+            "folder": "5691252724596736"
           },
           {
             "title": "2.2 Section Review Exercises",
-            "url": "https://www.mauthor.com/present/5246372604936192"
+            "folder": "5246372604936192"
           },
           {
             "title": "2.3.1 Solving quadratic equations involving absolute value",
-            "url": "https://www.mauthor.com/present/6654868474953728"
+            "folder": "6654868474953728"
           },
           {
             "title": "2.3.2 Solving Rational Equations",
-            "url": "https://www.mauthor.com/present/6134237639606272"
+            "folder": "6134237639606272"
           },
           {
             "title": "2.3.3 Solving Equations Reducible to Quadratic Form",
-            "url": "https://www.mauthor.com/present/6224181527707648"
+            "folder": "6224181527707648"
           },
           {
             "title": "2.3.4 Solving Word Problems",
-            "url": "https://www.mauthor.com/present/5461452378472448"
+            "folder": "5461452378472448"
           },
           {
             "title": "2.3 Section Review Exercises",
-            "url": "https://www.mauthor.com/present/6245927014236160"
+            "folder": "6245927014236160"
           }
         ]
       },
@@ -137,27 +137,27 @@
         "topics": [
           {
             "title": "3.1.1 Quadratic Function. Graphs of Quadratic Functions",
-            "url": "https://www.mauthor.com/present/6630638307901440"
+            "folder": "6630638307901440"
           },
           {
             "title": "3.1.2 Quadratic Functions of the Form y = ax² + n, y = a(x – m)², y = a(x – m)² + n",
-            "url": "https://www.mauthor.com/present/5097511722811392"
+            "folder": "5097511722811392"
           },
           {
             "title": "3.1.3 Graphing y = ax² + bx + c",
-            "url": "https://www.mauthor.com/present/6278645202681856"
+            "folder": "6278645202681856"
           },
           {
             "title": "3.1.4 Equation of a Parabola",
-            "url": "https://www.mauthor.com/present/4946395177549824"
+            "folder": "4946395177549824"
           },
           {
             "title": "3.1.5 Solving Word Problems by using Quadratic Function",
-            "url": "https://www.mauthor.com/present/6166512464953344"
+            "folder": "6166512464953344"
           },
           {
             "title": "3.1 Section Review Exercises",
-            "url": "https://www.mauthor.com/present/4541988237606912"
+            "folder": "4541988237606912"
           }
         ]
       },
@@ -166,19 +166,19 @@
         "topics": [
           {
             "title": "4.1.1 Polygon of Frequencies. Histogram of Frequencies",
-            "url": "https://www.mauthor.com/present/6613017667698688"
+            "folder": "6613017667698688"
           },
           {
             "title": "4.1 Section Review Exercises",
-            "url": "https://www.mauthor.com/present/4885188764631040"
+            "folder": "4885188764631040"
           },
           {
             "title": "4.2.1 Average Value. Variance. Standard Deviation",
-            "url": "https://www.mauthor.com/present/4703387093958656"
+            "folder": "4703387093958656"
           },
           {
             "title": "4.2 Section Review Exercises",
-            "url": "https://www.mauthor.com/present/4867600244408320"
+            "folder": "4867600244408320"
           }
         ]
       },
@@ -187,31 +187,31 @@
         "topics": [
           {
             "title": "5.1.1 Concept of inequalities",
-            "url": "https://www.mauthor.com/present/5564785466408960"
+            "folder": "5564785466408960"
           },
           {
             "title": "5.1.2 Quadratic Inequalities",
-            "url": "https://www.mauthor.com/present/5037480453210112"
+            "folder": "5037480453210112"
           },
           {
             "title": "5.1 Section Review Exercises",
-            "url": "https://www.mauthor.com/present/6073505661190144"
+            "folder": "6073505661190144"
           },
           {
             "title": "5.2.1 Rational Inequalities",
-            "url": "https://www.mauthor.com/present/6154712377851904"
+            "folder": "6154712377851904"
           },
           {
             "title": "5.2 Section Review Exercises",
-            "url": "https://www.mauthor.com/present/6517279893880832"
+            "folder": "6517279893880832"
           },
           {
             "title": "5.3.1 System of Inequalitis",
-            "url": "https://www.mauthor.com/present/6743433854713856"
+            "folder": "6743433854713856"
           },
           {
             "title": "5.3 Section Review Exercises",
-            "url": "https://www.mauthor.com/present/5825775101673472"
+            "folder": "5825775101673472"
           }
         ]
       },
@@ -220,7 +220,7 @@
         "topics": [
           {
             "title": "Review Exercises for 8th Grade",
-            "url": "https://www.mauthor.com/present/4807162093764608"
+            "folder": "4807162093764608"
           }
         ]
       }

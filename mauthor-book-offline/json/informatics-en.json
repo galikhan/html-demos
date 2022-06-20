@@ -6,27 +6,27 @@
             "topics": [
                 {
                     "title": "1.1 Measuring information",
-                    "url": "https://www.mauthor.com/present/6632132285431808"
+                    "folder":"6632132285431808"
                 },
                 {
                     "title": "1.2 Encoding information",
-                    "url": "https://www.mauthor.com/present/6075432826437632"
+                    "folder":"6075432826437632"
                 },
                 {
                     "title": "1.3 CPU and its characteristics",
-                    "url": "https://www.mauthor.com/present/6437465375768576"
+                    "folder":"6437465375768576"
                 },
                 {
                     "title": "1.4 Computer networks",
-                    "url": "https://www.mauthor.com/present/4565211620704256"
+                    "folder":"4565211620704256"
                 },
                 {
                     "title": "1.5 Network bandwidth",
-                    "url": "https://www.mauthor.com/present/5437639737606144"
+                    "folder":"5437639737606144"
                 },
                 {
                     "title": "Check yourself",
-                    "url": "https://www.mauthor.com/present/6135699941752832"
+                    "folder":"6135699941752832"
                 }
             ]
         },
@@ -35,15 +35,15 @@
             "topics": [
                 {
                     "title": "2.1 Negative aspects of using a computer",
-                    "url": "https://www.mauthor.com/present/5314074845511680"
+                    "folder":"5314074845511680"
                 },
                 {
                     "title": "2.2 Safety on the internet",
-                    "url": "https://www.mauthor.com/present/5300185055494144"
+                    "folder":"5300185055494144"
                 },
                 {
                     "title": "Check yourself",
-                    "url": "https://www.mauthor.com/present/6173233996496896"
+                    "folder":"6173233996496896"
                 }
             ]
         },
@@ -52,35 +52,35 @@
             "topics": [
                 {
                     "title": "3.1 Statistical data",
-                    "url": "https://www.mauthor.com/present/6504322648637440"
+                    "folder":"6504322648637440"
                 },
                 {
                     "title": "3.2 Built-in functions",
-                    "url": "https://www.mauthor.com/present/6089779787202560"
+                    "folder":"6089779787202560"
                 },
                 {
                     "title": "3.3 Problem solving: functions and formulas",
-                    "url": "https://www.mauthor.com/present/6735411820494848"
+                    "folder":"6735411820494848"
                 },
                 {
                     "title": "3.4 Data analysis based on available information",
-                    "url": "https://www.mauthor.com/present/6623687909965824"
+                    "folder":"6623687909965824"
                 },
                 {
                     "title": "3.5 Data analysis. Practice",
-                    "url": "https://www.mauthor.com/present/4589878263808000"
+                    "folder":"4589878263808000"
                 },
                 {
                     "title": "3.6 Solving applied problems using spreadsheets",
-                    "url": "https://www.mauthor.com/present/6102942117134336"
+                    "folder":"6102942117134336"
                 },
                 {
                     "title": "3.7 Solving applied problems using spreadsheets. Part II",
-                    "url": "https://www.mauthor.com/present/5430709673656320"
+                    "folder":"5430709673656320"
                 },
                 {
                     "title": "Check yourself",
-                    "url": "https://www.mauthor.com/present/5380240964190208"
+                    "folder":"5380240964190208"
                 }
             ]
         },
@@ -89,43 +89,43 @@
             "topics": [
                 {
                     "title": "4.1 While loop",
-                    "url": "https://www.mauthor.com/present/5261894281199616"
+                    "folder":"5261894281199616"
                 },
                 {
                     "title": "4.2 Problem solving: While loop",
-                    "url": "https://www.mauthor.com/present/5728011336417280"
+                    "folder":"5728011336417280"
                 },
                 {
                     "title": "4.3 For loop in python",
-                    "url": "https://www.mauthor.com/present/6191526757138432"
+                    "folder":"6191526757138432"
                 },
                 {
                     "title": "4.4 Problem solving: For loop",
-                    "url": "https://www.mauthor.com/present/6622037099020288"
+                    "folder":"6622037099020288"
                 },
                 {
                     "title": "4.5 Loop control statements: Break, Continue statements",
-                    "url": "https://www.mauthor.com/present/5006752982106112"
+                    "folder":"5006752982106112"
                 },
                 {
                     "title": "4.6 Loop control statements: Else clause",
-                    "url": "https://www.mauthor.com/present/5596758880681984"
+                    "folder":"5596758880681984"
                 },
                 {
                     "title": "4.7 Loop control statements. Practice",
-                    "url": "https://www.mauthor.com/present/5228648172486656"
+                    "folder":"5228648172486656"
                 },
                 {
                     "title": "4.8 Problem solving: Loops in Python",
-                    "url": "https://www.mauthor.com/present/5330347805507584"
+                    "folder":"5330347805507584"
                 },
                 {
                     "title": "4.9 Tracing an algorithm",
-                    "url": "https://www.mauthor.com/present/5678726184042496"
+                    "folder":"5678726184042496"
                 },
                 {
                     "title": "Check yourself",
-                    "url": "https://www.mauthor.com/present/5791598125907968"
+                    "folder":"5791598125907968"
                 }
             ]
         },
@@ -134,27 +134,27 @@
             "topics": [
                 {
                     "title": "5.1 Problem statement",
-                    "url": "https://www.mauthor.com/present/4635035214413824"
+                    "folder":"4635035214413824"
                 },
                 {
                     "title": "5.2 Algorithm development",
-                    "url": "https://www.mauthor.com/present/4506679806394368"
+                    "folder":"4506679806394368"
                 },
                 {
                     "title": "5.3 Algorithm development. “Melting Snowman” game. Part I",
-                    "url": "https://www.mauthor.com/present/6747197210755072"
+                    "folder":"6747197210755072"
                 },
                 {
                     "title": "5.4 Algorithm programming. “Melting Snowman” game. Part II",
-                    "url": "https://www.mauthor.com/present/6016937141862400"
+                    "folder":"6016937141862400"
                 },
                 {
                     "title": "5.5 Algorithm programming. “Melting Snowman” game. Part III",
-                    "url": "https://www.mauthor.com/present/6723286121185280"
+                    "folder":"6723286121185280"
                 },
                 {
                     "title": "5.6 Algorithm programming. “Melting Snowman” game. Part IV",
-                    "url": "https://www.mauthor.com/present/5556711196327936"
+                    "folder":"5556711196327936"
                 }
             ]
         }

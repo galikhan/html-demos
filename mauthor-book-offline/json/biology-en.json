@@ -1,311 +1,367 @@
 {
-    "title": "chemistry en",
-    "chapters": [
-      {
-        "title": "Chapter I. Cell biology",
-        "topics": [
-          {
-            "title": "1.1 Cell structure and types",
-            "url": "https://www.mauthor.com/present/5658481377542144"
-          },
-          {
-            "title": "1.2 Plant and animal tissues",
-            "url": " https://www.mauthor.com/present/4511368794996736"
-          }
-        ]
-      },
-      {
-        "title": "Chemistry of life",
-        "topics": [
-          {
-            "title": "2.1 Monomers and polymers",
-            "url": " https://www.mauthor.com/present/4909432470896640"
-          },
-          {
-            "title": "2.2 Carbohydrates and lipids",
-            "url": " https://www.mauthor.com/present/5618527544934400"
-          },
-          {
-            "title": "2.3 Protein",
-            "url": "https://www.mauthor.com/present/4804760829558784"
-          }
-        ]
-      },
-      {
-        "title": "Diversity of living things",
-        "topics": [
-          {
-            "title": "3.1 Diversity of plants",
-            "url": "https://www.mauthor.com/present/6753472988446720"
-          },
-          {
-            "title": "3.2 Kingdom fungi",
-            "url": "https://www.mauthor.com/present/6331275119558656"
-          },
-          {
-            "title": "3.3 Monocots and dicots",
-            "url": "https://www.mauthor.com/present/6567443979436032"
-          },
-          {
-            "title": "3.4 Arthropods and chordates",
-            "url": "https://www.mauthor.com/present/4809026336063488"
-          }
-        ]
-      },
-      {
-        "title": "Nutrition",
-        "topics": [
-          {
-            "title": "4.1 Digestive system",
-            "url": " https://www.mauthor.com/present/5066193475600384"
-          },
-          {
-            "title": "4.2  Structure, function and hygiene of teeth",
-            "url": "https://www.mauthor.com/present/5309726744772608"
-          },
-          {
-            "title": "4.3 Digestive organs",
-            "url": " https://www.mauthor.com/present/6289219772874752"
-          },
-          {
-            "title": "4.4 Prevention of gastrointestinal diseases",
-            "url": " https://www.mauthor.com/present/5964188459073536"
-          },
-          {
-            "title": "4.5 Vitamins",
-            "url": "https://www.mauthor.com/present/4905905128341504"
-          }
-        ]
-      },
-      {
-        "title": "Material transport",
-        "topics": [
-          {
-            "title": "5.1 Lymphatic system",
-            "url": " https://www.mauthor.com/present/5517121924235264"
-          },
-          {
-            "title": "5.10 Physical exercises and the heart",
-            "url": "https://www.mauthor.com/present/5173131098062848"
-          },
-          {
-            "title": "5.11 Diseases of human circulatory system",
-            "url": "https://www.mauthor.com/present/6743174445400064"
-          },
-          {
-            "title": "5.2 Blood and its function",
-            "url": "https://www.mauthor.com/present/6274850691350528"
-          },
-          {
-            "title": "5.3 Blood cells",
-            "url": " https://www.mauthor.com/present/6112180147191808"
-          },
-          {
-            "title": "5.4 Immunity. Humoral and cell-mediated immunity",
-            "url": "https://www.mauthor.com/present/5740047990652928"
-          },
-          {
-            "title": "5.5 Infectious diseases",
-            "url": "https://www.mauthor.com/present/5287346106400768"
-          },
-          {
-            "title": "5.6 Immunity. Types of immunity",
-            "url": "https://www.mauthor.com/present/5699859360907264"
-          },
-          {
-            "title": "5.7 Blood types",
-            "url": "https://www.mauthor.com/present/4875084610797568"
-          },
-          {
-            "title": "5.8 Heart and blood vessels",
-            "url": "https://www.mauthor.com/present/6431383257481216"
-          },
-          {
-            "title": "5.9 Circulatory system types",
-            "url": "https://www.mauthor.com/present/4901063391576064"
-          }
-        ]
-      },
-      {
-        "title": "Respiration",
-        "topics": [
-          {
-            "title": "6.1 Gas exchange",
-            "url": "https://www.mauthor.com/present/4747286567059456"
-          },
-          {
-            "title": "6.2 Breathing",
-            "url": "https://www.mauthor.com/present/6317660559769600"
-          },
-          {
-            "title": "6.3 Lung capacity",
-            "url": "https://www.mauthor.com/present/5116838572326912"
-          }
-        ]
-      },
-      {
-        "title": "Excretiom",
-        "topics": [
-          {
-            "title": "7.1 Human excretory system",
-            "url": "https://www.mauthor.com/present/5423861004369920"
-          },
-          {
-            "title": "7.2 Skin",
-            "url": "https://www.mauthor.com/present/6125109877800960"
-          },
-          {
-            "title": "7.3 Skin diseases",
-            "url": "https://www.mauthor.com/present/4571501289930752"
-          }
-        ]
-      },
-      {
-        "title": "Movement",
-        "topics": [
-          {
-            "title": "8.1 Locomotion system",
-            "url": "https://www.mauthor.com/present/4842967449337856"
-          },
-          {
-            "title": "8.2 Bone structure",
-            "url": "https://www.mauthor.com/present/6058297282658304"
-          },
-          {
-            "title": "8.3 Joints",
-            "url": "https://www.mauthor.com/present/6250873633767424"
-          },
-          {
-            "title": "8.4 Movable joints",
-            "url": "https://www.mauthor.com/present/6721874175852544"
-          },
-          {
-            "title": "8.5 Muscles",
-            "url": "https://www.mauthor.com/present/4897971551993856"
-          },
-          {
-            "title": "8.6 Hypodynamia",
-            "url": "https://www.mauthor.com/present/5059949062914048"
-          },
-          {
-            "title": "8.7 Biomechanics of movement",
-            "url": "https://www.mauthor.com/present/6216010578919424"
-          }
-        ]
-      },
-      {
-        "title": "Coordination and regulation",
-        "topics": [
-          {
-            "title": "9.1 Eye strucure",
-            "url": " https://www.mauthor.com/present/4651349899345920"
-          },
-          {
-            "title": "9.2 Hearing",
-            "url": "https://www.mauthor.com/present/6754826893000704"
-          },
-          {
-            "title": "9.3 Receptors",
-            "url": "https://www.mauthor.com/present/5710490646478848"
-          },
-          {
-            "title": "9.4 Endocrine glands",
-            "url": "https://www.mauthor.com/present/5439558992396288"
-          },
-          {
-            "title": "9.5 Diseases of endocrine system",
-            "url": " https://www.mauthor.com/present/5299657881812992"
-          },
-          {
-            "title": "9.6  Skin receptors",
-            "url": "https://www.mauthor.com/present/4552702268407808"
-          },
-          {
-            "title": "9.7 Thermoregulation",
-            "url": "https://www.mauthor.com/present/4559720513404928"
-          }
-        ]
-      },
-      {
-        "title": "Reproduction",
-        "topics": [
-          {
-            "title": "10.1 Cell division type",
-            "url": "https://www.mauthor.com/present/4848075759288320"
-          },
-          {
-            "title": "10.2 Animal reproduction",
-            "url": " https://www.mauthor.com/present/5995418827227136"
-          },
-          {
-            "title": "10.3 Life cycle of mosses and ferns",
-            "url": "https://www.mauthor.com/present/6255841434533888"
-          },
-          {
-            "title": "10.4 Life cycles of gymnosperms and angiosperms",
-            "url": "https://www.mauthor.com/present/5970668943966208"
-          }
-        ]
-      },
-      {
-        "title": "Embryonic development",
-        "topics": [
-          {
-            "title": "11.1 Embryonic development",
-            "url": "https://www.mauthor.com/present/6734990653652992"
-          }
-        ]
-      },
-      {
-        "title": "Imheritance anad variation",
-        "topics": [
-          {
-            "title": "12.1 Role of inheritance and variation in evolution",
-            "url": "https://www.mauthor.com/present/5446149770706944"
-          },
-          {
-            "title": "12.2 Selective breeding",
-            "url": " https://www.mauthor.com/present/6655529480486912"
-          },
-          {
-            "title": "12.3 Origin centers of domestic plants and animals",
-            "url": "https://www.mauthor.com/present/4582088837300224"
-          },
-          {
-            "title": "12.4 Crops and domestic animals of Kazakhstan",
-            "url": " https://www.mauthor.com/present/5714878140121088"
-          }
-        ]
-      },
-      {
-        "title": "Biosphere",
-        "topics": [
-          {
-            "title": "13.1 Ecosystem",
-            "url": "https://www.mauthor.com/present/5084703358582784"
-          },
-          {
-            "title": "13.2 Population",
-            "url": " https://www.mauthor.com/present/5411831824384000"
-          },
-          {
-            "title": "13.3 Interrelation between living things",
-            "url": "https://www.mauthor.com/present/5927410905776128"
-          }
-        ]
-      },
-      {
-        "title": "Human impact on environment",
-        "topics": [
-          {
-            "title": "14.1 Preserving and maintaining biodiversity",
-            "url": " https://www.mauthor.com/present/6461684771848192"
-          },
-          {
-            "title": "14.2 Ecological problems of Kazakhstan",
-            "url": "https://www.mauthor.com/present/6396392762900480"
-          }
-        ]
-      }
-    ]
-  }
+  "title": "chemistry en",
+  "chapters": [
+    {
+      "title": "Chapter I. Cell biology ",
+      "topics": [
+        {
+          "title": "1.1 Cell structure and types",
+          "folder":"5658481377542144"
+        },
+        {
+          "title": "1.2 Plant and animal tissues",
+          "url": " https://www.mauthor.com/present/4511368794996736"
+        },
+        {
+          "title": "Problems: 1.0 Cell Biology",
+          "folder":"4548574435737600"
+        }
+      ]
+    },
+    {
+      "title": "Chemistry of life   ",
+      "topics": [
+        {
+          "title": "2.1 Monomers and polymers",
+          "url": " https://www.mauthor.com/present/4909432470896640"
+        },
+        {
+          "title": "2.2 Carbohydrates and lipids",
+          "url": " https://www.mauthor.com/present/5618527544934400"
+        },
+        {
+          "title": "2.3 Protein",
+          "folder":"4804760829558784"
+        },
+        {
+          "title": "Problems: 2.0 Chemistry of life",
+          "url": " https://www.mauthor.com/present/4504797536976896"
+        }
+      ]
+    },
+    {
+      "title": "Diversity of living things  ",
+      "topics": [
+        {
+          "title": "3.1 Diversity of plants",
+          "folder":"6753472988446720"
+        },
+        {
+          "title": "3.2 Kingdom fungi",
+          "folder":"6331275119558656"
+        },
+        {
+          "title": "3.3 Monocots and dicots",
+          "folder":"6567443979436032"
+        },
+        {
+          "title": "3.4 Arthropods and chordates",
+          "folder":"4809026336063488"
+        },
+        {
+          "title": "Problems: 3.0 Diversity of living things",
+          "folder":"5188902519963648"
+        }
+      ]
+    },
+    {
+      "title": "Nutrition   ",
+      "topics": [
+        {
+          "title": "4.1 Digestive system",
+          "url": " https://www.mauthor.com/present/5066193475600384"
+        },
+        {
+          "title": "4.2  Structure, function and hygiene of teeth",
+          "folder":"5309726744772608"
+        },
+        {
+          "title": "4.3 Digestive organs",
+          "url": " https://www.mauthor.com/present/6289219772874752"
+        },
+        {
+          "title": "4.4 Prevention of gastrointestinal diseases",
+          "url": " https://www.mauthor.com/present/5964188459073536"
+        },
+        {
+          "title": "4.5 Vitamins",
+          "folder":"4905905128341504"
+        },
+        {
+          "title": "Problems: 4.0 Nutrition",
+          "folder":"5933104681844736"
+        }
+      ]
+    },
+    {
+      "title": "Material transport  ",
+      "topics": [
+        {
+          "title": "5.1 Lymphatic system",
+          "url": " https://www.mauthor.com/present/5517121924235264"
+        },
+        {
+          "title": "5.10 Physical exercises and the heart",
+          "folder":"5173131098062848"
+        },
+        {
+          "title": "5.11 Diseases of human circulatory system",
+          "folder":"6743174445400064"
+        },
+        {
+          "title": "5.2 Blood and its function",
+          "folder":"6274850691350528"
+        },
+        {
+          "title": "5.3 Blood cells",
+          "url": " https://www.mauthor.com/present/6112180147191808"
+        },
+        {
+          "title": "5.4 Immunity. Humoral and cell-mediated immunity",
+          "folder":"5740047990652928"
+        },
+        {
+          "title": "5.5 Infectious diseases",
+          "folder":"5287346106400768"
+        },
+        {
+          "title": "5.6 Immunity. Types of immunity",
+          "folder":"5699859360907264"
+        },
+        {
+          "title": "5.7 Blood types",
+          "folder":"4875084610797568"
+        },
+        {
+          "title": "5.8 Heart and blood vessels",
+          "folder":"6431383257481216"
+        },
+        {
+          "title": "5.9 Circulatory system types",
+          "folder":"4901063391576064"
+        },
+        {
+          "title": "Problems: 5.0 Material transport",
+          "folder":"4844447308840960"
+        }
+      ]
+    },
+    {
+      "title": "Respiration ",
+      "topics": [
+        {
+          "title": "6.1 Gas exchange",
+          "folder":"4747286567059456"
+        },
+        {
+          "title": "6.2 Breathing",
+          "folder":"6317660559769600"
+        },
+        {
+          "title": "6.3 Lung capacity",
+          "folder":"5116838572326912"
+        },
+        {
+          "title": "Problems: 6.0 Respiration",
+          "folder":"5731132234137600"
+        }
+      ]
+    },
+    {
+      "title": "Excretiom   ",
+      "topics": [
+        {
+          "title": "7.1 Human excretory system",
+          "folder":"5423861004369920"
+        },
+        {
+          "title": "7.2 Skin",
+          "folder":"6125109877800960"
+        },
+        {
+          "title": "7.3 Skin diseases",
+          "folder":"4571501289930752"
+        },
+        {
+          "title": "Problems: 7.0 Excretion",
+          "folder":"5179769901154304"
+        }
+      ]
+    },
+    {
+      "title": "Movement    ",
+      "topics": [
+        {
+          "title": "8.1 Locomotion system",
+          "folder":"4842967449337856"
+        },
+        {
+          "title": "8.2 Bone structure",
+          "folder":"6058297282658304"
+        },
+        {
+          "title": "8.3 Joints",
+          "folder":"6250873633767424"
+        },
+        {
+          "title": "8.4 Movable joints",
+          "folder":"6721874175852544"
+        },
+        {
+          "title": "8.5 Muscles",
+          "folder":"4897971551993856"
+        },
+        {
+          "title": "8.6 Hypodynamia",
+          "folder":"5059949062914048"
+        },
+        {
+          "title": "8.7 Biomechanics of movement",
+          "folder":"6216010578919424"
+        },
+        {
+          "title": "Problems: 8.0 Movement",
+          "folder":"6547592565096448"
+        }
+      ]
+    },
+    {
+      "title": "Coordination and regulation ",
+      "topics": [
+        {
+          "title": "9.1 Eye strucure",
+          "url": " https://www.mauthor.com/present/4651349899345920"
+        },
+        {
+          "title": "9.2 Hearing",
+          "folder":"6754826893000704"
+        },
+        {
+          "title": "9.3 Receptors",
+          "folder":"5710490646478848"
+        },
+        {
+          "title": "9.4 Endocrine glands",
+          "folder":"5439558992396288"
+        },
+        {
+          "title": "9.5 Diseases of endocrine system",
+          "url": " https://www.mauthor.com/present/5299657881812992"
+        },
+        {
+          "title": "9.6  Skin receptors",
+          "folder":"4552702268407808"
+        },
+        {
+          "title": "9.7 Thermoregulation",
+          "folder":"4559720513404928"
+        },
+        {
+          "title": "Problems: 9.0 Coordination and regulation",
+          "folder":"5861346180202496"
+        }
+      ]
+    },
+    {
+      "title": "Reproduction    ",
+      "topics": [
+        {
+          "title": "10.1 Cell division type",
+          "folder":"4848075759288320"
+        },
+        {
+          "title": "10.2 Animal reproduction",
+          "url": " https://www.mauthor.com/present/5995418827227136"
+        },
+        {
+          "title": "10.3 Life cycle of mosses and ferns",
+          "folder":"6255841434533888"
+        },
+        {
+          "title": "10.4 Life cycles of gymnosperms and angiosperms",
+          "folder":"5970668943966208"
+        },
+        {
+          "title": "Problems: 10.0 Reproduction",
+          "folder":"5870376323776512"
+        }
+      ]
+    },
+    {
+      "title": "Embryonic development   ",
+      "topics": [
+        {
+          "title": "11.1 Embryonic development",
+          "folder":"6734990653652992"
+        },
+        {
+          "title": "Problems: 11.0 Growth and development",
+          "folder":"6242807836180480"
+        }
+      ]
+    },
+    {
+      "title": "Imheritance anad variation  ",
+      "topics": [
+        {
+          "title": "12.1 Role of inheritance and variation in evolution",
+          "folder":"5446149770706944"
+        },
+        {
+          "title": "12.2 Selective breeding",
+          "url": " https://www.mauthor.com/present/6655529480486912"
+        },
+        {
+          "title": "12.3 Origin centers of domestic plants and animals",
+          "folder":"4582088837300224"
+        },
+        {
+          "title": "12.4 Crops and domestic animals of Kazakhstan",
+          "url": " https://www.mauthor.com/present/5714878140121088"
+        },
+        {
+          "title": "Problems: 12.0 Inheritance and variation",
+          "folder":"6005406429741056"
+        }
+      ]
+    },
+    {
+      "title": "Biosphere   ",
+      "topics": [
+        {
+          "title": "13.1 Ecosystem",
+          "folder":"5084703358582784"
+        },
+        {
+          "title": "13.2 Population",
+          "url": " https://www.mauthor.com/present/5411831824384000"
+        },
+        {
+          "title": "13.3 Interrelation between living things",
+          "folder":"5927410905776128"
+        },
+        {
+          "title": "Problems: 13.0 Biosphere",
+          "folder":"6246581099167744"
+        }
+      ]
+    },
+    {
+      "title": "Human impact on environment ",
+      "topics": [
+        {
+          "title": "14.1 Preserving and maintaining biodiversity",
+          "url": " https://www.mauthor.com/present/6461684771848192"
+        },
+        {
+          "title": "14.2 Ecological problems of Kazakhstan",
+          "folder":"6396392762900480"
+        },
+        {
+          "title": "Problems: 14.0 Human impact on environment",
+          "folder":"6540253137076224"
+        }
+      ]
+    }
+  ]
+}
